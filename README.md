@@ -24,7 +24,7 @@
 
 :small_orange_diamond: LEYTON, WILLIAM BERNARDO
 
-:small_orange_diamond: 
+:small_orange_diamond: LEYTON SEGOVIA, ALEJANDRO ANTONIO
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 :point_right: Tener en cuenta.
