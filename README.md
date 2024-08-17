@@ -58,7 +58,7 @@
 
 :point_right: Modelo Entidad - Relacion. En este [link](https://drive.google.com/file/d/18QFLjwbFgqeT3gls-KaypxcZ5ThEPZo6/view?usp=sharing) se almacena el Diagrama entidad relación.
 
-:point_right: Metodologías ágiles -Tablero de Sprint Retrospectives. En este [link](https://docs.google.com/document/d/1qgkLQ8mTe_9V-sUzFtl0-JhwNDKV2b7ik7rZk2Tu-o0/edit?usp=sharing) se adjunta el Ideaboardz Retrospective Sprint 01 - Sprint 02
+:point_right: Metodologías ágiles -Tablero de Sprint Retrospectives. En este [link](https://docs.google.com/document/d/1qgkLQ8mTe_9V-sUzFtl0-JhwNDKV2b7ik7rZk2Tu-o0/edit?usp=sharing) se adjunta el Ideaboardz Retrospective 
 
 👉 ¿Cómo trabajamos?:
 
