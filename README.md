@@ -42,7 +42,7 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 ![masc666](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/assets/166960720/80b9f29d-b2c2-4cd1-858c-9646294923c0)
 
-## ¿Qué hicimos durante el 1º semestre del 2024?:
+## ¿Qué hicimos durante el 1º cuatrimestre del 2024?:
 
 :books: Materia: Programador Web - TSDWAD 
 
@@ -68,7 +68,7 @@
 ![masc 2](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/assets/166960720/d5bbb11a-d305-4e38-9271-aeca69b372f1)
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-## Qué haremos en en este segundo semestre?:
+## Qué haremos en en este segundo cuatrimestre?:
 En este proyecto, originalmente desarrollado con Angular y Django, se estará transformando en una aplicación nativa para dispositivos Android. La implementación se realizará utilizando Android Studio y Java, con el objetivo de crear una experiencia de usuario optimizada para dispositivos móviles.
 
 :books: Materia: Módulo Proyecto Integrador.
