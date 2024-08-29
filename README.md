@@ -72,7 +72,7 @@ En este proyecto, originalmente desarrollado con Angular y Django, se estará tr
 :point_right: Documentación
 
 :small_orange_diamond: **Documento IEEE 830**
-En este [link](https://docs.google.com/document/d/1_6yjxfB9edF_0mYNA99SLLMNcH3COe_k/edit?usp=sharing&ouid=105320720932750339924&rtpof=true&sd=true) pueden consultar el Documento de Especificación de requisitos de software IEE830.
+En este [link](https://docs.google.com/document/d/1tD0woiiwuhC0ZnckBN2w5cAZf1QsHqN9/edit?usp=sharing&ouid=105320720932750339924&rtpof=true&sd=true) pueden consultar el Documento ERS.
 
 :small_orange_diamond: **DRIVE Grupal**
 En este [link](https://drive.google.com/drive/folders/1ba9DFmO3WURKgp5lAbNZ9XExrsz_w8vD) se almacena toda la documentación de M.A.S.C 
