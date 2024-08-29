@@ -22,7 +22,7 @@
 
 :small_orange_diamond: GIMENEZ, CRISTIAN
 
-:small_orange_diamond: LEYTON, WILLIAM BERNARDO
+:small_orange_diamond: LEYTON SEGOVIA, WILLIAM BERNARDO
 
 :small_orange_diamond: LEYTON SEGOVIA, ALEJANDRO ANTONIO
 
