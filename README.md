@@ -33,6 +33,15 @@
 
 :small_orange_diamond:Borrado de Ramas: No se debe borrar ninguna rama sin antes haberlo consultado con el equipo. Es importante que todas las decisiones sobre el manejo de ramas sean consensuadas para mantener la integridad del proyecto.
 
+
+:small_orange_diamond: Manejo de Merge y Pull Requests: Antes de realizar un merge a la rama principal, asegúrate de que la rama de origen esté actualizada con la última versión de la rama principal y que todos los conflictos se hayan resuelto. Además, crea un pull request (PR) detallado para que los miembros del equipo puedan revisar el código y proporcionar retroalimentación. Los PR deben ser aprobados por al menos un miembro del equipo antes de fusionarse.
+
+
+:small_orange_diamond: Manejo de Issues: Cuando crees una nueva issue, proporciona una descripción clara y detallada del problema o la mejora que estás proponiendo. Asegúrate de que cada issue esté asociada a una rama específica y a un pull request correspondiente. Asigna la issue a ti mismo o a la persona adecuada, y si es posible, proporciona una estimación de tiempo para su resolución. Mantén actualizada la información sobre el estado de la issue y ciérrala una vez que se haya completado satisfactoriamente.
+
+
+:small_orange_diamond: Trabajo sobre la Rama dev: Cada miembro del equipo debe trabajar sobre su propia rama dev, la cual debe estar actualizada con la rama main o master del repositorio. Esto asegura que todos los desarrollos se realicen sobre una base actualizada y evita conflictos. Asegúrate de sincronizar regularmente tu rama dev con la rama principal para mantener la coherencia del proyecto.
+
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 ![masc666](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/assets/166960720/80b9f29d-b2c2-4cd1-858c-9646294923c0)
 
