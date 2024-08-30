@@ -20,7 +20,7 @@
 
 :small_orange_diamond: ORELLANA, GABRIEL ALEJANDRO
 
-:small_orange_diamond: GIMENEZ, CRISTIAN
+:small_orange_diamond: GIMENEZ, CRISTIAN VICTOR NAHUEL
 
 :small_orange_diamond: LEYTON SEGOVIA, WILLIAM BERNARDO
 
