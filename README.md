@@ -63,7 +63,7 @@
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 ## Qué haremos en en este segundo cuatrimestre?:
-En este proyecto, originalmente desarrollado con Angular y Django, se estará transformando en una aplicación nativa para dispositivos Android. La implementación se realizará utilizando Android Studio y Java, con el objetivo de crear una experiencia de usuario optimizada para dispositivos móviles.
+En este proyecto, inicialmente desarrollado con Angular y Django, se está llevando a cabo una transformación para crear una aplicación nativa para dispositivos Android. La implementación se realizará utilizando Android Studio y Java, con el objetivo de ofrecer una experiencia de usuario altamente optimizada para dispositivos móviles.
 
 :books: Materia: Módulo Proyecto Integrador.
 
