@@ -27,7 +27,7 @@ public class RegisterActivity extends AppCompatActivity {
         spinnerLocality = findViewById(R.id.spinner_locality);
         btnRegister = findViewById(R.id.btn_register);
 
-        // Lógica del botón de registro
+//         Lógica del botón de registro
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

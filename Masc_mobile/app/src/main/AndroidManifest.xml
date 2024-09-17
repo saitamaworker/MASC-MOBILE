@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Masc_mobile"
         tools:targetApi="31">
         <activity
-            android:name=".register"
+            android:name=".RegisterActivity"
             android:exported="false"
             android:theme="@style/Theme.Masc_mobile" />
         <activity
