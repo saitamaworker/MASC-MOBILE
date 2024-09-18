@@ -8,8 +8,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextView;
 
-import com.example.masc_mobile.FragmentosCliente.MainActivityAdministrador;
-
 public class Carga extends AppCompatActivity {
 
     TextView app_name, desarrollador;

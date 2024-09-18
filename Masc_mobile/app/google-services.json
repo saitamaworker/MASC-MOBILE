@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "639713316392",
+    "project_id": "masc-mobile",
+    "storage_bucket": "masc-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639713316392:android:bca24f8241e9c252246f1d",
+        "android_client_info": {
+          "package_name": "com.example.masc_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX8qUHbtTCCLAuJZuM4gOw7XnmPsnonVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -91,9 +91,15 @@ string RegistroTXT
 string Salir
 string app_name
 string desarrollador
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_blank_fragment
 string navigation_drawer_close
 string navigation_drawer_open
+string project_id
 style AppTheme
 style AppTheme.NoActionBar
 style Base.Theme.Masc_mobile
