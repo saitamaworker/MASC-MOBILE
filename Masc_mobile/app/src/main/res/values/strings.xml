@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Masc_mobile</string>
+    <string name="contact_title">Contáctanos</string>
+    <string name="contact_name_hint">Nombre</string>
+    <string name="contact_lastname_hint">Apellido</string>
+    <string name="contact_email_hint">Email *</string>
+    <string name="contact_message_hint">Escribe un mensaje</string>
+    <string name="contact_send_button">Enviar</string>
+    <string name="contact_thanks_message">¡Gracias por tu mensaje!</string>
+    <string name="contact_website_link">Visita nuestra página web</string>
+
+
 </resources>
