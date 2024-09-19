@@ -88,9 +88,11 @@ En este [link](https://drive.google.com/drive/folders/1ba9DFmO3WURKgp5lAbNZ9XExr
 
 :small_orange_diamond: **Ideaboardz Retrospective**
 En este [link](https://ideaboardz.com/for/MASC-%20Sprint%200/5366403) se encuentra el Retrospective del Sprint 0 
+En este [link](https://ideaboardz.com/for/RETROSPECTIVE/5384088) se encuentra el Retrospective del Sprint 01
 
-:small_orange_diamond: **Review Sprint 0**
+:small_orange_diamond: **Review Sprint**
 En este [link](https://github.com/saitamaworker/MASC-MOBILE/wiki/Sprint-Review-%7C-Sprint-0) se adjunta el Review Sprint 0
+En este [link](https://github.com/saitamaworker/MASC-MOBILE/wiki/Sprint-Review-%7C-Sprint-01) se adjunta el Review Sprint 01
 
 :point_right: Modelo Entidad - Relacion. En este [link](https://drive.google.com/drive/folders/1ba9DFmO3WURKgp5lAbNZ9XExrsz_w8vD) se almacena el Diagrama entidad relación actualizado para nuestra app móvil.
 
