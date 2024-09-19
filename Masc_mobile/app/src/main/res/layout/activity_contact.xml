@@ -1,22 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/contact"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".ContactActivity">
 
-    <!-- TextView para mostrar "Contacto" -->
+    <!-- Título "Contáctanos" -->
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/contact_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Contacto"
-        android:textSize="22sp"
-        android:layout_marginTop="16dp"
+        android:text="Contáctanos"
+        android:textSize="24sp"
+        android:textColor="#000"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Campo de texto para el nombre -->
+    <EditText
+        android:id="@+id/contact_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:background="@android:drawable/edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/contact_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Campo de texto para el apellido -->
+    <EditText
+        android:id="@+id/contact_lastname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Apellido"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:background="@android:drawable/edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/contact_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Campo de texto para el email -->
+    <EditText
+        android:id="@+id/contact_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Email *"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000000"
+        android:background="@android:drawable/edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/contact_lastname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Campo de texto para el mensaje -->
+    <EditText
+        android:id="@+id/contact_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Escribe un mensaje"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:textColorHint="#000000"
+        android:background="@android:drawable/edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/contact_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón de enviar -->
+    <Button
+        android:id="@+id/contact_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:background="@drawable/rounded_button"
+        android:textColor="#1B4D3E"
+        app:layout_constraintTop_toBottomOf="@+id/contact_message"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <!-- Texto de agradecimiento que se muestra después de enviar -->
+    <TextView
+        android:id="@+id/contact_thanks_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Gracias por tu mensaje!"
+        android:textSize="14sp"
+        android:textColor="#000"
+        app:layout_constraintTop_toBottomOf="@+id/contact_send"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+    <!-- Link a la página web -->
+    <TextView
+        android:id="@+id/contact_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visita nuestra página web"
+        android:textColor="#0000FF"
+        android:autoLink="web"
+        app:layout_constraintTop_toBottomOf="@+id/contact_thanks_message"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
