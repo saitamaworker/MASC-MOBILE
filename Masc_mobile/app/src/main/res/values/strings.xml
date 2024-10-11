@@ -22,5 +22,5 @@
     <string name="nav_profile" translatable="false">Perfil</string>
     <string name="nav_search" translatable="false">Buscar</string>
     <string name="nav_notifications" translatable="false">Notificaciones</string>
-    <string name="nav_menu" translatable="false">Menú</string>
+    <string name="nav_store" translatable="false">tienda</string>
 </resources>
