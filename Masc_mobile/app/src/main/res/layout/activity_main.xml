@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:text="@string/filter_texto"
             android:backgroundTint="@color/button_inactive"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/black" />
 
         <!-- Botón de filtro "Danza" -->
         <Button
@@ -41,7 +41,7 @@
             android:layout_marginStart="8dp"
             android:text="@string/filter_danza"
             android:backgroundTint="@color/button_inactive"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/black" />
 
         <!-- Botón de filtro "Pintura" -->
         <Button
@@ -51,7 +51,7 @@
             android:layout_marginStart="8dp"
             android:text="@string/filter_pintura"
             android:backgroundTint="@color/button_inactive"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/black" />
     </LinearLayout>
 
     <!-- Sección de contenido principal (RecyclerView o ScrollView para las secciones) -->
