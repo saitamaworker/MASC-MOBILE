@@ -4,9 +4,9 @@
     <string name="app_name" translatable="false">Mercado de Artes y Servicios Creativos</string>
 
     <!-- Descripciones para accesibilidad y tests -->
-    <string name="user_profile" translatable="false">Perfil del usuario</string>
-    <string name="logo_market" translatable="false">Logo del Mercado de Artes</string>
-    <string name="settings" translatable="false">Configuración</string>
+    <string name="user_profile">Perfil del usuario</string>
+    <string name="logo_market" >Logo del Mercado de Artes</string>
+    <string name="settings" >Configuración</string>
 
     <!-- Filtros de la pantalla principal -->
     <string name="filter_texto" translatable="false">Texto</string>
@@ -15,7 +15,7 @@
 
     <!-- Secciones -->
     <string name="section_titles" translatable="false">títulos</string>
-    <string name="section_description" translatable="false">Lorem ipsum dolor sit amet consectetur. Facilisis pellentesque dignissim arcu feugiat. At tortor tortor massa netus sed. Eu leo sapien potenti at cras grav.</string>
+    <string name="section_description">Lorem ipsum dolor sit amet consectetur. Facilisis pellentesque dignissim arcu feugiat. At tortor tortor massa netus sed. Eu leo sapien potenti at cras grav.</string>
 
     <!-- Menú de navegación inferior -->
     <string name="nav_home" translatable="false">Inicio</string>
@@ -23,4 +23,10 @@
     <string name="nav_search" translatable="false">Buscar</string>
     <string name="nav_notifications" translatable="false">Notificaciones</string>
     <string name="nav_store" translatable="false">tienda</string>
+
+    <!-- string fragmentos -->
+    <string name="next">siguiente</string>
+    <string name="previous">anterior</string>
+    <string name="first_fragment_label">etiqueta primer fragmento</string>
+    <string name="second_fragment_label">etiqueta segundo fragmento</string>
 </resources>

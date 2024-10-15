@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // 1. Inicializar el RecyclerView
-        recyclerView = findViewById(R.id.recycler_view_events);  // Asegúrate de tener un RecyclerView en activity_main.xml con este ID
+        recyclerView = findViewById(R.id.recycler_view_events);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         // 2. Inicializar la lista de eventos

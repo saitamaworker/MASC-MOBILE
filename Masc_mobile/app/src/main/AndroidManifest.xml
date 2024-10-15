@@ -31,9 +31,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
 
-=======
+
         <activity
             android:name=".LoginActivity"
             android:exported="true">
@@ -43,7 +42,7 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
->>>>>>> devRodriguez
+
     </application>
 
 </manifest>
