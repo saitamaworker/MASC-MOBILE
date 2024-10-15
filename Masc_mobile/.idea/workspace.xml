@@ -10,6 +10,9 @@
           <theme>@style/Theme.Masc_mobile</theme>
         </config>
       </layout>
+<<<<<<< HEAD
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
+=======
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
         <config>
           <theme>@style/Theme.Masc_mobile</theme>
@@ -21,6 +24,7 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/drawer_menu.xml">
+>>>>>>> e1c65cbeeab3d1c6d5e1a039e644c267a858b784
         <config>
           <theme>@style/Theme.Masc_mobile</theme>
         </config>
@@ -31,6 +35,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="76abf729-d9ef-439a-a63b-29ec04700bbd" name="Changes" comment="punto de control">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+=======
     <list default="true" id="0fb871ec-5d98-4c1b-b655-47531162e669" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
@@ -42,6 +50,7 @@
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/masc_mobile/LoginActivity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/masc_mobile/MainActivity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+>>>>>>> e1c65cbeeab3d1c6d5e1a039e644c267a858b784
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +60,11 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+<<<<<<< HEAD
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\lucas_moyano\.android\avd\Pixel_4_API_24.avd)]" />
+=======
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=RF8R21K0MVP)]" />
+>>>>>>> e1c65cbeeab3d1c6d5e1a039e644c267a858b784
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -99,31 +112,65 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
+<<<<<<< HEAD
+=======
         <option value="valueResourceFile" />
         <option value="Class" />
         <option value="layoutResourceFile" />
+>>>>>>> e1c65cbeeab3d1c6d5e1a039e644c267a858b784
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="devMoyano" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lucasm22&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/saitamaworker/MASC-MOBILE.git&quot;,
+    &quot;accountId&quot;: &quot;b553842a-6136-41f5-b606-f8e0c4bf2200&quot;
+  }
+}</component>
+=======
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+>>>>>>> e1c65cbeeab3d1c6d5e1a039e644c267a858b784
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
+<<<<<<< HEAD
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2m5Hac4kjq0t65Y4JFJ006C30fw" />
+=======
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2m7wAjMadokLU2xgyEMUC2Lr9mH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> e1c65cbeeab3d1c6d5e1a039e644c267a858b784
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+<<<<<<< HEAD
+=======
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+>>>>>>> e1c65cbeeab3d1c6d5e1a039e644c267a858b784
     &quot;Android App.app.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
@@ -131,6 +178,36 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+<<<<<<< HEAD
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#62 on devMoyano&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/CURSOS/REPOSITORIOS/MASC-MOBILE/Masc_mobile/app/src/main/res/drawable&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\res\drawable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile" />
+    </key>
+    <key name="android.template.-879066839">
+      <recent name="com.example.masc_mobile" />
+    </key>
+  </component>
+=======
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/aleja/OneDrive/Escritorio/MASC-MOBILE-main/Masc_mobile&quot;,
@@ -140,6 +217,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;
   }
 }</component>
+>>>>>>> e1c65cbeeab3d1c6d5e1a039e644c267a858b784
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="Masc_mobile.app.main" />
@@ -211,12 +289,62 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="76abf729-d9ef-439a-a63b-29ec04700bbd" name="Changes" comment="" />
+      <created>1726359595057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726359595057</updated>
+    </task>
+    <task id="LOCAL-00001" summary="pantalla de registro">
+      <option name="closed" value="true" />
+      <created>1726410897578</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726410897578</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cambios RegisterActivity y manifest">
+      <option name="closed" value="true" />
+      <created>1726616485441</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726616485441</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cambios varios">
+      <option name="closed" value="true" />
+      <created>1726616634149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726616634149</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cambios varios">
+      <option name="closed" value="true" />
+      <created>1727944796870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727944796870</updated>
+    </task>
+    <task id="LOCAL-00005" summary="punto de control">
+      <option name="closed" value="true" />
+      <created>1727991205910</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727991205910</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+=======
       <changelist id="0fb871ec-5d98-4c1b-b655-47531162e669" name="Changes" comment="" />
       <created>1726440785409</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726440785409</updated>
     </task>
+>>>>>>> e1c65cbeeab3d1c6d5e1a039e644c267a858b784
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +368,11 @@
         <entry key="MAIN">
           <value>
             <State>
+<<<<<<< HEAD
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+=======
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -256,6 +389,7 @@
                       </list>
                     </value>
                   </entry>
+>>>>>>> e1c65cbeeab3d1c6d5e1a039e644c267a858b784
                 </map>
               </option>
             </State>
@@ -264,4 +398,14 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pantalla de registro" />
+    <MESSAGE value="cambios RegisterActivity y manifest" />
+    <MESSAGE value="cambios varios" />
+    <MESSAGE value="punto de control" />
+    <option name="LAST_COMMIT_MESSAGE" value="punto de control" />
+  </component>
+=======
+>>>>>>> e1c65cbeeab3d1c6d5e1a039e644c267a858b784
 </project>

@@ -20,6 +20,10 @@
 
         <!-- Declaración para MainActivity -->
         <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Masc_mobile" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -27,9 +31,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
 
-=======
+
         <activity
             android:name=".LoginActivity"
             android:exported="true">
@@ -39,7 +42,7 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
->>>>>>> devRodriguez
+
     </application>
 
 </manifest>

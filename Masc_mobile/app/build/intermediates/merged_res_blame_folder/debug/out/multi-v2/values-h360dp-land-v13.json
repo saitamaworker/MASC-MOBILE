@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.masc_mobile.app-mergeDebugResources-29:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+            "outputFile": "com.example.masc_mobile.app-mergeDebugResources-41:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-3\\a856886f94406ac05e27bcd0454b5365\\transformed\\material-1.11.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+                    "source": "C:\\Users\\lucas_moyano\\.gradle\\caches\\transforms-3\\eb27657ec2f12fbd017e83bdbbf1f20f\\transformed\\material-1.12.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

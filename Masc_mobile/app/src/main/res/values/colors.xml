@@ -3,6 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="ff3d00">#ff3d00</color>
+    <color name="footer_background_color">#F5E9BD</color>
+    <color name="bottom_nav_item_color">#1C1B1F</color>
+    <color name="button_inactive">#ffffff</color>
+
 
 </resources>
 
