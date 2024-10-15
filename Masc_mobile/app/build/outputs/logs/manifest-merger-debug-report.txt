@@ -4,6 +4,7 @@ ADDED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidMa
 INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:2:1-48:12
 INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:2:1-48:12
 INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:2:1-48:12
+MERGED from [androidx.databinding:viewbinding:8.1.2] C:\Users\lucas_moyano\.gradle\caches\transforms-3\0776c9b89b4fc945c2d2925447452c31\transformed\viewbinding-8.1.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.volley:volley:1.2.1] C:\Users\lucas_moyano\.gradle\caches\transforms-3\ad965643afb2539ca2faf83756cb1b21\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.8.2] C:\Users\lucas_moyano\.gradle\caches\transforms-3\b04a3b073dbd9af01dc932b15662fd55\transformed\navigation-common-2.8.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.8.2] C:\Users\lucas_moyano\.gradle\caches\transforms-3\8721b7fa25bd75e287ac0fd1dddba739\transformed\navigation-runtime-2.8.2\AndroidManifest.xml:17:1-22:12
@@ -155,6 +156,8 @@ uses-sdk
 INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml
 INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.1.2] C:\Users\lucas_moyano\.gradle\caches\transforms-3\0776c9b89b4fc945c2d2925447452c31\transformed\viewbinding-8.1.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.1.2] C:\Users\lucas_moyano\.gradle\caches\transforms-3\0776c9b89b4fc945c2d2925447452c31\transformed\viewbinding-8.1.2\AndroidManifest.xml:5:5-44
 MERGED from [com.android.volley:volley:1.2.1] C:\Users\lucas_moyano\.gradle\caches\transforms-3\ad965643afb2539ca2faf83756cb1b21\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
 MERGED from [com.android.volley:volley:1.2.1] C:\Users\lucas_moyano\.gradle\caches\transforms-3\ad965643afb2539ca2faf83756cb1b21\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
 MERGED from [androidx.navigation:navigation-common:2.8.2] C:\Users\lucas_moyano\.gradle\caches\transforms-3\b04a3b073dbd9af01dc932b15662fd55\transformed\navigation-common-2.8.2\AndroidManifest.xml:20:5-44

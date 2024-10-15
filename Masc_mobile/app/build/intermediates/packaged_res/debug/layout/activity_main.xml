@@ -56,9 +56,6 @@
     </LinearLayout>
 
     <!-- Sección de contenido principal reciclerview para hacerlo mas dinamico -->
-
-    <!-- Incluir el Footer -->
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view_events"
         android:layout_width="0dp"
@@ -70,6 +67,7 @@
         app:layout_constraintTop_toBottomOf="@id/filters_container"
         app:layout_constraintVertical_bias="0.581" />
 
+    <!-- Incluir el Footer -->
     <include
         layout="@layout/footer"
         android:layout_width="match_parent"
