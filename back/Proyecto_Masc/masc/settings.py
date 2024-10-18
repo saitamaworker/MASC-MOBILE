@@ -1,6 +1,6 @@
 
 from pathlib import Path
-from .db import MySQL
+#from .db import MySQL
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
