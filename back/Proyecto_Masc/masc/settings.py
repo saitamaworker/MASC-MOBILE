@@ -6,6 +6,10 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+print(os.getenv('DB_NAME'))
+print(os.getenv('DB_USER'))
+print(os.getenv('DB_PASSWORD'))
+print(os.getenv('DB_HOST'))
 
 
 # SECURITY WARNING: keep the secret key used in production secret!
