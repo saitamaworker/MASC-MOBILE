@@ -143,8 +143,7 @@ WSGI_APPLICATION = 'masc.wsgi.application'
 
 DATABASES = {
    'default': dj_database_url.config(
-        # Replace this value with your local database's connection string.
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        default='postgresql://abm_masc_user:PdAqotcKgnDF86X3e96zoLOeNlsavsDG@dpg-cs8q3e68ii6s73fhu0k0-a/abm_masc',
         conn_max_age=600
     )
 }
