@@ -135,7 +135,16 @@ WSGI_APPLICATION = 'masc.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = MySQL
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.getenv('DB_NAME'),  # Por ejemplo: 'mi_base_de_datos'
+        'USER': os.getenv('DB_USER'),  # Por ejemplo: 'mi_usuario'
+        'PASSWORD': os.getenv('DB_PASSWORD'),  # Por ejemplo: 'mi_contraseña'
+        'HOST': os.getenv('DB_HOST'),  # Por ejemplo: 'mi_host_de_render'
+        'PORT': '5432',
+    }
+}
 
 
 
