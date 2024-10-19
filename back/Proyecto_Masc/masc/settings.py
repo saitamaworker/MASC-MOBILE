@@ -14,10 +14,10 @@ print(os.getenv('DB_HOST'))
 
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure--%mq25f^8us=(lq9&^8##4ki0am(jm2e2kv47fdzo&8v5+4546'
+SECRET_KEY = os.environ.get('SECRET_KEY', default='your secret key')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'RENDER' not in os.environ
 
 ALLOWED_HOSTS = []
 
@@ -139,7 +139,7 @@ TEMPLATES = [
 ]
 
 
-WSGI_APPLICATION = 'masc.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 # Database
