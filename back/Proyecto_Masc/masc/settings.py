@@ -21,7 +21,7 @@ DEBUG = 'RENDER' not in os.environ
 
 ALLOWED_HOSTS = []
 
-RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER EXTERNAL HOSTNAME')
+RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME: ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
 
@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.masc',
     'Aplicaciones.modelos',
     'rest_framework',
     'rest_framework_simplejwt',
@@ -139,7 +140,7 @@ TEMPLATES = [
 ]
 
 
-WSGI_APPLICATION = 'wsgi.application'
+WSGI_APPLICATION = 'masc.wsgi.application'
 
 
 # Database
