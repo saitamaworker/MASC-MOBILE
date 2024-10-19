@@ -138,7 +138,7 @@ TEMPLATES = [
 ]
 
 
-WSGI_APPLICATION = 'masc.wsgi.application'
+WSGI_APPLICATION = 'Proyecto_Masc.wsgi.application'
 
 
 # Database
