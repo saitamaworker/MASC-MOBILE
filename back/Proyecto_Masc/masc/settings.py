@@ -140,7 +140,7 @@ TEMPLATES = [
 ]
 
 
-#WSGI_APPLICATION = 'masc.wsgi.application'
+WSGI_APPLICATION = 'masc.wsgi.application'
 
 
 # Database
