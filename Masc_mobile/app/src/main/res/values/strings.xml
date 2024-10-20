@@ -5,8 +5,8 @@
 
     <!-- Descripciones para accesibilidad y tests -->
     <string name="user_profile">Perfil del usuario</string>
-    <string name="logo_market" >Logo del Mercado de Artes</string>
-    <string name="settings" >Configuración</string>
+    <string name="logo_market">Logo del Mercado de Artes</string>
+    <string name="settings">Configuración</string>
 
     <!-- Filtros de la pantalla principal -->
     <string name="filter_texto" translatable="false">Texto</string>
