@@ -76,6 +76,7 @@ ADDED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidMa
 application
 ADDED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:7:5-41:19
 INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:7:5-41:19
+INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:7:5-41:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\lucas_moyano\.gradle\caches\transforms-3\eb27657ec2f12fbd017e83bdbbf1f20f\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\lucas_moyano\.gradle\caches\transforms-3\eb27657ec2f12fbd017e83bdbbf1f20f\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\lucas_moyano\.gradle\caches\transforms-3\08f55b195dcd0c7c189d9e8288f31b0a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -104,6 +105,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lu
 		ADDED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:12:9-41
 	android:fullBackupContent
 		ADDED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:10:9-54
+	android:testOnly
+		INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml
 	android:roundIcon
 		ADDED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:13:9-54
 	tools:targetApi
@@ -158,6 +161,14 @@ category#android.intent.category.LAUNCHER
 ADDED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:38:17-77
 	android:name
 		ADDED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:38:27-74
+profileable
+INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml reason: profileable injection requested
+INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml
+INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml
+	android:enabled
+		INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml
+	android:shell
+		INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml
 uses-sdk
 INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\CURSOS\REPOSITORIOS\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml
