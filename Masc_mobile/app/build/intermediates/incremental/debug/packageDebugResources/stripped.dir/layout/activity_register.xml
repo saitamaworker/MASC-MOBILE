@@ -30,13 +30,14 @@
             android:padding="8dp"/>
 
         <!-- Campos de texto -->
+
         <EditText
             android:id="@+id/et_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="usuario"
             android:layout_marginTop="16dp"
             android:background="@drawable/rounded_edit_text"
+            android:hint="usuario"
             android:padding="12dp"
             android:textColorHint="#808080" />
 
@@ -77,6 +78,27 @@
 <!--            android:background="@drawable/rounded_edit_text" />-->
 
         <!-- Botón de registrarse -->
+
+        <EditText
+            android:id="@+id/et_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_edit_text"
+            android:hint="Nombre"
+            android:padding="12dp"
+            android:textColorHint="#808080" />
+
+        <EditText
+            android:id="@+id/et_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_edit_text"
+            android:hint="Apellido"
+            android:padding="12dp"
+            android:textColorHint="#808080" />
+
         <Button
             android:id="@+id/btn_register"
             android:layout_width="match_parent"

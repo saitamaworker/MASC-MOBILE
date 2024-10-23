@@ -3374,6 +3374,8 @@ id escape
 id etEmail
 id etPassword
 id et_email
+id et_first_name
+id et_last_name
 id et_password
 id et_username
 id exitUntilCollapsed
