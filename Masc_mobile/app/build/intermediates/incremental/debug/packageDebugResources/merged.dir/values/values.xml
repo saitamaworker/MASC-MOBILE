@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#FE9A2E</color>
+    <color name="colorPrimary">#FE9A2E</color>
+    <color name="colorPrimaryDark">#0B0B61</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Acceder">Acceder</string>
+    <string name="AcercaDe">Acerca De</string>
+    <string name="Apellidos">Apellidos completos</string>
+    <string name="Artesvisuales">ARTES VISUALES</string>
+    <string name="Compartir">Compartir</string>
+    <string name="Correo">Correo electronico</string>
+    <string name="Edad">Edad</string>
+    <string name="Eligeunacategoriatxt">Elige categoria</string>
+    <string name="FechaRegistro">Fecha de registro</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="InicioAdmin">Inicio</string>
+    <string name="InicioCliente">Inicio</string>
+    <string name="ListarAdmin">Lista de administradores</string>
+    <string name="LoginTXT">Login de administradores</string>
+    <string name="MasOpcionestxt">Más opciones</string>
+    <string name="Musicaysonido">MUSICA Y SONIDO</string>
+    <string name="Nombres">Nombres completos</string>
+    <string name="Opcionestxt">Opciones</string>
+    <string name="Password">Contraseña</string>
+    <string name="PerfilAdmin">Perfil</string>
+    <string name="Registrar">Registrar</string>
+    <string name="RegistrarAdmin">Registrar</string>
+    <string name="RegistroTXT">Registro de administradores</string>
+    <string name="Salir">Cerrar sesion</string>
+    <string name="Servicioscreativos">SERVICIOS CREATIVOS</string>
+    <string name="Talleresyeventos">TALLERES Y EVENTOS</string>
+    <string name="app_name">Masc_mobile</string>
+    <string name="desarrollador">Desarrollado por: MASC_MOBILE</string>
+    <string name="gcm_defaultSenderId" translatable="false">639713316392</string>
+    <string name="google_api_key" translatable="false">AIzaSyBX8qUHbtTCCLAuJZuM4gOw7XnmPsnonVo</string>
+    <string name="google_app_id" translatable="false">1:639713316392:android:bca24f8241e9c252246f1d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBX8qUHbtTCCLAuJZuM4gOw7XnmPsnonVo</string>
+    <string name="google_storage_bucket" translatable="false">masc-mobile.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="project_id" translatable="false">masc-mobile</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Base.Theme.Masc_mobile" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Masc_mobile" parent="Base.Theme.Masc_mobile"/>
+</resources>

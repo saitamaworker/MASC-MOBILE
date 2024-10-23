@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.airbnb.android:lottie:6.5.2@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2e6598519f48462bc360f5d85c48ef1a/transformed/lottie-6.5.2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2e6598519f48462bc360f5d85c48ef1a/transformed/lottie-6.5.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2e6598519f48462bc360f5d85c48ef1a/transformed/lottie-6.5.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2e6598519f48462bc360f5d85c48ef1a/transformed/lottie-6.5.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.airbnb.android/lottie/6.5.2/abb26f83cda031aa791e7dd1257d56de80491347/lottie-6.5.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.airbnb.android/lottie/6.5.2/a95431ad5d6a6368b4a9105f56c061b83ff8db5b/lottie-6.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
