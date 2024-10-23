@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MASC-MOBILE.iml" filepath="$PROJECT_DIR$/.idea/MASC-MOBILE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Masc_mobile.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Masc_mobile.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Masc_mobile.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Masc_mobile.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Masc_mobile.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Masc_mobile.app.unitTest.iml" />
     </modules>
   </component>
 </project>
