@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-        // Método para abrir la actividad de login
+//         Método para abrir la actividad de login
     public void openLoginActivity(View view) {
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);

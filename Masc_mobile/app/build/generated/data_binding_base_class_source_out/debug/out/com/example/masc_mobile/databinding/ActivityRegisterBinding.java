@@ -8,7 +8,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ScrollView;
-import android.widget.Spinner;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -40,16 +39,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
   @NonNull
   public final ImageView profileImage;
 
-  @NonNull
-  public final Spinner spinnerLocality;
-
-  @NonNull
-  public final Spinner spinnerProvince;
-
   private ActivityRegisterBinding(@NonNull ScrollView rootView, @NonNull Button btnRegister,
       @NonNull EditText etEmail, @NonNull EditText etPassword, @NonNull EditText etUsername,
-      @NonNull ImageView headerImage, @NonNull ImageView profileImage,
-      @NonNull Spinner spinnerLocality, @NonNull Spinner spinnerProvince) {
+      @NonNull ImageView headerImage, @NonNull ImageView profileImage) {
     this.rootView = rootView;
     this.btnRegister = btnRegister;
     this.etEmail = etEmail;
@@ -57,8 +49,6 @@ public final class ActivityRegisterBinding implements ViewBinding {
     this.etUsername = etUsername;
     this.headerImage = headerImage;
     this.profileImage = profileImage;
-    this.spinnerLocality = spinnerLocality;
-    this.spinnerProvince = spinnerProvince;
   }
 
   @Override
@@ -124,20 +114,8 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.spinner_locality;
-      Spinner spinnerLocality = ViewBindings.findChildViewById(rootView, id);
-      if (spinnerLocality == null) {
-        break missingId;
-      }
-
-      id = R.id.spinner_province;
-      Spinner spinnerProvince = ViewBindings.findChildViewById(rootView, id);
-      if (spinnerProvince == null) {
-        break missingId;
-      }
-
       return new ActivityRegisterBinding((ScrollView) rootView, btnRegister, etEmail, etPassword,
-          etUsername, headerImage, profileImage, spinnerLocality, spinnerProvince);
+          etUsername, headerImage, profileImage);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

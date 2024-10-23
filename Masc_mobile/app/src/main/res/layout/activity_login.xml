@@ -59,11 +59,11 @@
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/ff3d00"
-        android:backgroundTint="#FF5722"
+        android:background="@color/primary"
+        android:backgroundTint="@color/primary"
         android:shadowColor="#FF9800"
         android:text="Login"
-        android:textColor="#ffffff"
+        android:textColor="@color/text"
         android:textColorLink="#FF5722"
 />
     <TextView

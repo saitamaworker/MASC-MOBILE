@@ -5,6 +5,9 @@
     <color name="button_inactive">#ffffff</color>
     <color name="ff3d00">#ff3d00</color>
     <color name="footer_background_color">#F5E9BD</color>
+    <color name="primary">#BF4904</color>
+    <color name="red">#F32727</color>
+    <color name="text">#F6F6F6</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="fab_margin">16dp</dimen>
     <string name="app_name" translatable="false">Mercado de Artes y Servicios Creativos</string>

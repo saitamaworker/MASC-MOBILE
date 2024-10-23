@@ -6,8 +6,9 @@
     <color name="footer_background_color">#F5E9BD</color>
     <color name="bottom_nav_item_color">#1C1B1F</color>
     <color name="button_inactive">#ffffff</color>
-    <color name="primary">#F37D27</color>
+    <color name="primary">#BF4904</color>
     <color name="red">#F32727</color>
+    <color name="text">#F6F6F6</color>
 
 
 </resources>

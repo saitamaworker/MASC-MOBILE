@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.util.Log;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -54,11 +55,14 @@ public class LoginActivity extends AppCompatActivity {
                         String emailInput = etEmail.getText().toString().trim();
                         String passwordInput = etPassword.getText().toString().trim();
 
+                        Log.d("LoginActivity", "API Response: " + response.toString());
+
                         for (int i = 0; i < response.length(); i++) {
                             try {
                                 JSONObject user = response.getJSONObject(i);
                                 String email = user.getString("email");
                                 String password = user.getString("password");
+                                Log.d("LoginActivity", "Checking user: " + email);
 
                                 if (email.equals(emailInput) && password.equals(passwordInput)) {
                                     isAuthenticated = true;
@@ -73,8 +77,9 @@ public class LoginActivity extends AppCompatActivity {
                         if (isAuthenticated) {
                             Toast.makeText(LoginActivity.this, "Login exitoso", Toast.LENGTH_SHORT).show();
                             // Redirigir a la actividad principal
-                            //  Intent intent = new Intent(MainActivity.this, MainActivity.class);
-                            //  startActivity(intent);
+                              Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                startActivity(intent);
+                                finish();
                         } else {
                             Toast.makeText(LoginActivity.this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
                         }
@@ -82,6 +87,8 @@ public class LoginActivity extends AppCompatActivity {
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
+                Toast.makeText(LoginActivity.this, "Error al obtener datos", Toast.LENGTH_SHORT).show();
+                Log.d("LoginActivity", "Error al obtener datos: " + error.toString());
                 Toast.makeText(LoginActivity.this, "Error al obtener datos", Toast.LENGTH_SHORT).show();
             }
 

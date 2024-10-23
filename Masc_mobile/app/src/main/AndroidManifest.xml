@@ -23,23 +23,18 @@
             android:exported="true" /> <!-- Declaración para MainActivity -->
         <activity
             android:name=".RegisterActivity"
-            android:exported="false"
+            android:exported="true"
             android:theme="@style/Theme.Masc_mobile" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

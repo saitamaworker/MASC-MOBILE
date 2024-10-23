@@ -23,8 +23,8 @@ public class RegisterActivity extends AppCompatActivity {
         etUsername = findViewById(R.id.et_username);
         etEmail = findViewById(R.id.et_email);
         etPassword = findViewById(R.id.et_password);
-        spinnerProvince = findViewById(R.id.spinner_province);
-        spinnerLocality = findViewById(R.id.spinner_locality);
+//        spinnerProvince = findViewById(R.id.spinner_province);
+//        spinnerLocality = findViewById(R.id.spinner_locality);
         btnRegister = findViewById(R.id.btn_register);
 
 //         Lógica del botón de registro

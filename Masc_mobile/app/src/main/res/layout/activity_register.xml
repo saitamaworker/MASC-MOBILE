@@ -62,19 +62,19 @@
             android:textColorHint="#808080" />
 
         <!-- Spinners para provincia y localidad -->
-        <Spinner
-            android:id="@+id/spinner_province"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/rounded_edit_text" />
+<!--        <Spinner-->
+<!--            android:id="@+id/spinner_province"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:background="@drawable/rounded_edit_text" />-->
 
-        <Spinner
-            android:id="@+id/spinner_locality"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/rounded_edit_text" />
+<!--        <Spinner-->
+<!--            android:id="@+id/spinner_locality"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:background="@drawable/rounded_edit_text" />-->
 
         <!-- Botón de registrarse -->
         <Button

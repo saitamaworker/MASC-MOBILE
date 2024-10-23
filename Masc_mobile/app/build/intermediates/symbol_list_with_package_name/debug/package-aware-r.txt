@@ -2129,6 +2129,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color primary
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2137,6 +2138,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -2149,6 +2151,7 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color text
 color tooltip_background_dark
 color tooltip_background_light
 color white
@@ -3039,6 +3042,7 @@ drawable abc_vector_test
 drawable account_circle
 drawable avd_hide_password
 drawable avd_show_password
+drawable bakground_gradient
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3058,6 +3062,7 @@ drawable design_snackbar_background
 drawable header_background
 drawable header_image
 drawable ic_arrow_back_black_24
+drawable ic_arrowback
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -3170,6 +3175,7 @@ drawable tooltip_frame_light
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id BackArroow_icon
 id CTRL
 id FUNCTION
 id FirstFragment
@@ -3264,6 +3270,7 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
+id biography
 id blocking
 id bottom
 id bottom_navigation
@@ -3271,7 +3278,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnDelete
 id btnLogin
+id btnSave
 id btn_danza
 id btn_pintura
 id btn_register
@@ -3355,6 +3364,7 @@ id edge
 id edit_query
 id edit_text_id
 id elastic
+id email
 id embed
 id end
 id endToStart
@@ -3431,12 +3441,15 @@ id legacy
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id locale
+id locationSpinner
 id logo_market
 id ltr
 id m3_side_sheet
+id main
 id marquee
 id masked
 id match_constraint
@@ -3549,15 +3562,18 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
 id password_toggle
 id path
 id pathRelative
 id peekHeight
 id percent
+id phone
 id pin
 id position
 id postLayout
 id pressed
+id profileImage
 id profile_icon
 id profile_image
 id progress_circular
@@ -3618,8 +3634,6 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
-id spinner_locality
-id spinner_province
 id spline
 id split_action_bar
 id spread
@@ -3705,6 +3719,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3841,6 +3856,7 @@ layout abc_tooltip
 layout activity_contact
 layout activity_login
 layout activity_main
+layout activity_profile
 layout activity_register
 layout content_register
 layout custom_dialog
@@ -3946,9 +3962,6 @@ mipmap ic_logom_round
 mipmap ic_logomasc
 mipmap ic_logomasc_foreground
 mipmap ic_logomasc_round
-mipmap image_default
-mipmap image_default_foreground
-mipmap image_default_round
 navigation nav_graph
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

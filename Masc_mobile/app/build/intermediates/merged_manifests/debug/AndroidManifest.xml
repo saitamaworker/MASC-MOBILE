@@ -29,25 +29,20 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Masc_mobile" >
-
+        <activity
+            android:name="com.example.masc_mobile.ProfileActivity"
+            android:exported="false" />
         <!-- Declaración para ContactActivity -->
         <activity
             android:name="com.example.masc_mobile.ContactActivity"
-            android:exported="true" />
-
-        <!-- Declaración para MainActivity -->
+            android:exported="true" /> <!-- Declaración para MainActivity -->
         <activity
             android:name="com.example.masc_mobile.RegisterActivity"
-            android:exported="false"
+            android:exported="true"
             android:theme="@style/Theme.Masc_mobile" />
         <activity
             android:name="com.example.masc_mobile.MainActivity"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.example.masc_mobile.LoginActivity"
