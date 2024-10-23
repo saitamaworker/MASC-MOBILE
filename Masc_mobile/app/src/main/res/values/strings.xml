@@ -15,7 +15,7 @@
 
     <!-- Secciones -->
     <string name="section_titles" translatable="false">títulos</string>
-    <string name="section_description">Lorem ipsum dolor sit amet consectetur. Facilisis pellentesque dignissim arcu feugiat. At tortor tortor massa netus sed. Eu leo sapien potenti at cras grav.</string>
+    <string name="section_description">Lorem ipsum dolor sit amet consectetur. Facilisis pellentesque dignissim arcu feugiat. At  tortor massa netus sed. Eu leo sapien potenti at cras grav.</string>
 
     <!-- Menú de navegación inferior -->
     <string name="nav_home" translatable="false">Inicio</string>
