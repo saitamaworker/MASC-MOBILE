@@ -33,6 +33,7 @@ public class AcerDeCliente extends Fragment {
                 /*Forma 1*/
                 startActivity(new Intent(getActivity(), InicioSesion.class));
 
+
                 /*Forma 2
                 Intent intent =new Intent(getActivity(), InicioSesion.class);
                 startActivity(intent);*/

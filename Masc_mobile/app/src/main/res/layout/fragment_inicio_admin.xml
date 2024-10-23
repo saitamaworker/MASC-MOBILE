@@ -1,15 +1,160 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context=".FragmentosAdministrador.InicioAdmin">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="INICIO"
-        android:textSize="25sp" />
-</FrameLayout>
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="10dp">
+
+       <TextView
+           android:text="@string/Eligeunacategoriatxt"
+           android:textColor="#000"
+           android:layout_gravity="center"
+           android:textSize="25sp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"/>
+
+
+        <!-- FILA 1 -->
+       <androidx.appcompat.widget.LinearLayoutCompat
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+           android:weightSum="2">
+
+
+           <!-- Artes visuales -->
+
+           <androidx.appcompat.widget.LinearLayoutCompat
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_weight="1"
+               android:gravity="center">
+
+               <androidx.constraintlayout.utils.widget.ImageFilterView
+                   android:layout_width="180dp"
+                   android:layout_height="180dp"
+                   android:src="@drawable/artesvisuales"/>
+
+               <Button
+                   android:id="@+id/Artesvisuales"
+                   android:text="@string/Artesvisuales"
+                   android:background="#04B4AE"
+                   android:textColor="#000"
+                   android:layout_marginTop="10dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+           </androidx.appcompat.widget.LinearLayoutCompat>
+
+           <!-- Musica y sonido -->
+
+           <androidx.appcompat.widget.LinearLayoutCompat
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_weight="1"
+               android:gravity="center">
+
+
+               <androidx.constraintlayout.utils.widget.ImageFilterView
+                   android:layout_width="180dp"
+                   android:layout_height="180dp"
+                   android:src="@drawable/musicaysonido"/>
+
+               <Button
+                   android:id="@+id/Musicaysonido"
+                   android:text="@string/Musicaysonido"
+                   android:background="#04B4AE"
+                   android:textColor="#000"
+                   android:layout_marginTop="10dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+           </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+       </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+       <!-- FILA 2 -->
+       <androidx.appcompat.widget.LinearLayoutCompat
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+           android:weightSum="2">
+
+
+           <!-- Servicios creativos -->
+
+           <androidx.appcompat.widget.LinearLayoutCompat
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_weight="1"
+               android:gravity="center">
+
+
+               <androidx.constraintlayout.utils.widget.ImageFilterView
+                   android:layout_width="180dp"
+                   android:layout_height="180dp"
+                   android:src="@drawable/servicioscreativos"/>
+
+               <Button
+                   android:id="@+id/Servicioscreativos"
+                   android:text="@string/Servicioscreativos"
+                   android:background="#04B4AE"
+                   android:textColor="#000"
+                   android:layout_marginTop="10dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+           </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+           <!-- Talleres y eventos -->
+
+           <androidx.appcompat.widget.LinearLayoutCompat
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_weight="1"
+               android:gravity="center">
+
+
+           <androidx.constraintlayout.utils.widget.ImageFilterView
+                   android:layout_width="180dp"
+                   android:layout_height="180dp"
+               android:src="@drawable/talleresyeventos"/>
+
+               <Button
+                   android:id="@+id/Talleresyeventos"
+                   android:text="@string/Talleresyeventos"
+                   android:background="#04B4AE"
+                   android:textColor="#000"
+                   android:layout_marginTop="10dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+           </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+       </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+   </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

@@ -13,9 +13,11 @@
     <string name="Acceder">Acceder</string>
     <string name="AcercaDe">Acerca De</string>
     <string name="Apellidos">Apellidos completos</string>
+    <string name="Artesvisuales">ARTES VISUALES</string>
     <string name="Compartir">Compartir</string>
     <string name="Correo">Correo electronico</string>
     <string name="Edad">Edad</string>
+    <string name="Eligeunacategoriatxt">Elige categoria</string>
     <string name="FechaRegistro">Fecha de registro</string>
     <string name="Ingresar">Ingresar</string>
     <string name="InicioAdmin">Inicio</string>
@@ -23,6 +25,7 @@
     <string name="ListarAdmin">Lista de administradores</string>
     <string name="LoginTXT">Login de administradores</string>
     <string name="MasOpcionestxt">Más opciones</string>
+    <string name="Musicaysonido">MUSICA Y SONIDO</string>
     <string name="Nombres">Nombres completos</string>
     <string name="Opcionestxt">Opciones</string>
     <string name="Password">Contraseña</string>
@@ -31,6 +34,8 @@
     <string name="RegistrarAdmin">Registrar</string>
     <string name="RegistroTXT">Registro de administradores</string>
     <string name="Salir">Cerrar sesion</string>
+    <string name="Servicioscreativos">SERVICIOS CREATIVOS</string>
+    <string name="Talleresyeventos">TALLERES Y EVENTOS</string>
     <string name="app_name">Masc_mobile</string>
     <string name="desarrollador">Desarrollado por: MASC_MOBILE</string>
     <string name="gcm_defaultSenderId" translatable="false">639713316392</string>

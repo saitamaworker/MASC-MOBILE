@@ -40,6 +40,14 @@
     <string name="Ingresar">Ingresar</string>
 
 
+    <!--- CATEGORiAS-->
+    <string name="Eligeunacategoriatxt">Elige categoria</string>
+    <string name="Artesvisuales">ARTES VISUALES</string>
+    <string name="Servicioscreativos">SERVICIOS CREATIVOS</string>
+    <string name="Musicaysonido">MUSICA Y SONIDO</string>
+    <string name="Talleresyeventos">TALLERES Y EVENTOS</string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

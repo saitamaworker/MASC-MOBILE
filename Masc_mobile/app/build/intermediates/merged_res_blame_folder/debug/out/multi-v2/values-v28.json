@@ -4,7 +4,7 @@
             "outputFile": "com.example.masc_mobile.app-mergeDebugResources-35:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\USUARIO\\.gradle\\caches\\transforms-3\\a34faabb885fd4526f01283e3dde626d\\transformed\\material-1.12.0\\res\\values-v28\\values-v28.xml",
+                    "source": "/home/cristian/.gradle/caches/transforms-3/606c35a3de9b53a6cf113e505ed07e88/transformed/material-1.12.0/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\USUARIO\\.gradle\\caches\\transforms-3\\63f3dba819f563a22375b63e34df2bf2\\transformed\\appcompat-1.7.0\\res\\values-v28\\values-v28.xml",
+                    "source": "/home/cristian/.gradle/caches/transforms-3/06151621de8736411a65075743d16c5a/transformed/appcompat-1.7.0/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

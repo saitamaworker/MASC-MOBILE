@@ -3040,6 +3040,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable acerca_de_ico
 drawable admin
+drawable artesvisuales
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -3162,6 +3163,7 @@ drawable mtrl_switch_thumb_unchecked_pressed
 drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
+drawable musicaysonido
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -3176,6 +3178,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable servicioscreativos
+drawable talleresyeventos
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3185,6 +3189,7 @@ id ALT
 id Acceder
 id AcercaDe
 id Apellidos
+id Artesvisuales
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
@@ -3198,6 +3203,7 @@ id InicioCliente
 id ListarAdmin
 id META
 id MasOpcionestxt
+id Musicaysonido
 id NO_DEBUG
 id Nombres
 id Opcionestxt
@@ -3211,8 +3217,10 @@ id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id Salir
+id Servicioscreativos
 id TOP_END
 id TOP_START
+id Talleresyeventos
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -3462,6 +3470,7 @@ id listMode
 id list_item
 id lottie_layer_name
 id m3_side_sheet
+id main
 id marquee
 id masked
 id match_constraint
@@ -3843,9 +3852,13 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_artes_visuales
 layout activity_inicio_sesion
 layout activity_main
 layout activity_main_administrador
+layout activity_musica_ysonido
+layout activity_servicios_creativos
+layout activity_talleres_yeventos
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout carga
@@ -3946,9 +3959,11 @@ raw firebase_common_keep
 string Acceder
 string AcercaDe
 string Apellidos
+string Artesvisuales
 string Compartir
 string Correo
 string Edad
+string Eligeunacategoriatxt
 string FechaRegistro
 string Ingresar
 string InicioAdmin
@@ -3956,6 +3971,7 @@ string InicioCliente
 string ListarAdmin
 string LoginTXT
 string MasOpcionestxt
+string Musicaysonido
 string Nombres
 string Opcionestxt
 string Password
@@ -3964,6 +3980,8 @@ string Registrar
 string RegistrarAdmin
 string RegistroTXT
 string Salir
+string Servicioscreativos
+string Talleresyeventos
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

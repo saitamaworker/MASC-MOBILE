@@ -3039,6 +3039,7 @@ int drawable abc_textfield_search_material 0x7f070076
 int drawable abc_vector_test 0x7f070077
 int drawable acerca_de_ico 0x7f070078
 int drawable admin 0x7f070079
+int drawable artesvisuales 0x7f070107
 int drawable avd_hide_password 0x7f07007a
 int drawable avd_show_password 0x7f07007b
 int drawable btn_checkbox_checked_mtrl 0x7f07007c
@@ -3161,6 +3162,7 @@ int drawable mtrl_switch_thumb_unchecked_pressed 0x7f0700f0
 int drawable mtrl_switch_track 0x7f0700f1
 int drawable mtrl_switch_track_decoration 0x7f0700f2
 int drawable mtrl_tabs_default_indicator 0x7f0700f3
+int drawable musicaysonido 0x7f070108
 int drawable navigation_empty_icon 0x7f0700f4
 int drawable notification_action_background 0x7f0700f5
 int drawable notification_bg 0x7f0700f6
@@ -3175,6 +3177,8 @@ int drawable notification_template_icon_bg 0x7f0700fe
 int drawable notification_template_icon_low_bg 0x7f0700ff
 int drawable notification_tile_bg 0x7f070100
 int drawable notify_panel_notification_icon_bg 0x7f070101
+int drawable servicioscreativos 0x7f070109
+int drawable talleresyeventos 0x7f07010a
 int drawable test_level_drawable 0x7f070102
 int drawable tooltip_frame_dark 0x7f070103
 int drawable tooltip_frame_light 0x7f070104
@@ -3184,6 +3188,7 @@ int id ALT 0x7f080000
 int id Acceder 0x7f080001
 int id AcercaDe 0x7f080002
 int id Apellidos 0x7f080003
+int id Artesvisuales 0x7f080223
 int id BOTTOM_END 0x7f080004
 int id BOTTOM_START 0x7f080005
 int id CTRL 0x7f080006
@@ -3197,6 +3202,7 @@ int id InicioCliente 0x7f08000d
 int id ListarAdmin 0x7f08000e
 int id META 0x7f08000f
 int id MasOpcionestxt 0x7f080010
+int id Musicaysonido 0x7f080224
 int id NO_DEBUG 0x7f080011
 int id Nombres 0x7f080012
 int id Opcionestxt 0x7f080013
@@ -3210,8 +3216,10 @@ int id SHOW_PATH 0x7f08001a
 int id SHOW_PROGRESS 0x7f08001b
 int id SYM 0x7f08001c
 int id Salir 0x7f08001d
+int id Servicioscreativos 0x7f080225
 int id TOP_END 0x7f08001e
 int id TOP_START 0x7f08001f
+int id Talleresyeventos 0x7f080226
 int id accelerate 0x7f080020
 int id accessibility_action_clickable_span 0x7f080021
 int id accessibility_custom_action_0 0x7f080022
@@ -3461,6 +3469,7 @@ int id listMode 0x7f080115
 int id list_item 0x7f080116
 int id lottie_layer_name 0x7f080117
 int id m3_side_sheet 0x7f080118
+int id main 0x7f080227
 int id marquee 0x7f080119
 int id masked 0x7f08011a
 int id match_constraint 0x7f08011b
@@ -3842,9 +3851,13 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_artes_visuales 0x7f0b007a
 int layout activity_inicio_sesion 0x7f0b001c
 int layout activity_main 0x7f0b001d
 int layout activity_main_administrador 0x7f0b001e
+int layout activity_musica_ysonido 0x7f0b007b
+int layout activity_servicios_creativos 0x7f0b007c
+int layout activity_talleres_yeventos 0x7f0b007d
 int layout browser_actions_context_menu_page 0x7f0b001f
 int layout browser_actions_context_menu_row 0x7f0b0020
 int layout carga 0x7f0b0021
@@ -3945,9 +3958,11 @@ int raw firebase_common_keep 0x7f100000
 int string Acceder 0x7f110000
 int string AcercaDe 0x7f110001
 int string Apellidos 0x7f110002
+int string Artesvisuales 0x7f1100dc
 int string Compartir 0x7f110003
 int string Correo 0x7f110004
 int string Edad 0x7f110005
+int string Eligeunacategoriatxt 0x7f1100dd
 int string FechaRegistro 0x7f110006
 int string Ingresar 0x7f110007
 int string InicioAdmin 0x7f110008
@@ -3955,6 +3970,7 @@ int string InicioCliente 0x7f110009
 int string ListarAdmin 0x7f11000a
 int string LoginTXT 0x7f11000b
 int string MasOpcionestxt 0x7f11000c
+int string Musicaysonido 0x7f1100de
 int string Nombres 0x7f11000d
 int string Opcionestxt 0x7f11000e
 int string Password 0x7f11000f
@@ -3963,6 +3979,8 @@ int string Registrar 0x7f110011
 int string RegistrarAdmin 0x7f110012
 int string RegistroTXT 0x7f110013
 int string Salir 0x7f110014
+int string Servicioscreativos 0x7f1100df
+int string Talleresyeventos 0x7f1100e0
 int string abc_action_bar_home_description 0x7f110015
 int string abc_action_bar_up_description 0x7f110016
 int string abc_action_menu_overflow_description 0x7f110017
