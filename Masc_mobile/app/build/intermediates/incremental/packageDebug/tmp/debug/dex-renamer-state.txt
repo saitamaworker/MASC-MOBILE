@@ -1,9 +1,9 @@
-#Tue Oct 22 01:42:22 ART 2024
-base.0=F\:\\CURSOS\\REPOSITORIOS\\MASC-MOBILE\\Masc_mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=F\:\\CURSOS\\REPOSITORIOS\\MASC-MOBILE\\Masc_mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=F\:\\CURSOS\\REPOSITORIOS\\MASC-MOBILE\\Masc_mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=F\:\\CURSOS\\REPOSITORIOS\\MASC-MOBILE\\Masc_mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.4=F\:\\CURSOS\\REPOSITORIOS\\MASC-MOBILE\\Masc_mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Wed Oct 23 18:32:37 ART 2024
+base.0=C\:\\Users\\aleja\\OneDrive\\Escritorio\\masc-mobile\\MASC-MOBILE\\Masc_mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\aleja\\OneDrive\\Escritorio\\masc-mobile\\MASC-MOBILE\\Masc_mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\aleja\\OneDrive\\Escritorio\\masc-mobile\\MASC-MOBILE\\Masc_mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=C\:\\Users\\aleja\\OneDrive\\Escritorio\\masc-mobile\\MASC-MOBILE\\Masc_mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.4=C\:\\Users\\aleja\\OneDrive\\Escritorio\\masc-mobile\\MASC-MOBILE\\Masc_mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex

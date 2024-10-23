@@ -1,14 +1,12 @@
 package com.example.masc_mobile;
 
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -24,7 +22,6 @@ public class LoginActivity extends AppCompatActivity {
 
     private EditText etEmail, etPassword;
     private Button btnLogin;
-    private TextView tvRegister;
     private RequestQueue rq;
 
     @Override
@@ -35,31 +32,20 @@ public class LoginActivity extends AppCompatActivity {
         etEmail = findViewById(R.id.etEmail);
         etPassword = findViewById(R.id.etPassword);
         btnLogin = findViewById(R.id.btnLogin);
-        tvRegister = findViewById(R.id.tvRegister);  // Referencia al TextView de "Regístrate"
         rq = Volley.newRequestQueue(this);
 
-        // Listener para el botón de login
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 login();
             }
         });
-
-        // Listener para el TextView "No tienes cuenta, Regístrate"
-        tvRegister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Redirigir a la actividad de registro
-                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 
     private void login() {
-        String url = "https://masc-yps4.onrender.com/api/auth/login";
+        String url = "https://masc-yps4.onrender.com/api/auth/login/";
 
+        // Crear el JSON con los datos de login
         JSONObject jsonBody = new JSONObject();
         try {
             jsonBody.put("email", etEmail.getText().toString().trim());
@@ -68,20 +54,17 @@ public class LoginActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
+        // Crear la solicitud HTTP
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.POST, url, jsonBody,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
                         try {
-                            String accessToken = response.getString("access");  // JWT de acceso
-                            String refreshToken = response.getString("refresh");  // JWT de refresh
+                            // Obtener el token de la respuesta de la API
+                            String token = response.getString("token");  // Asumiendo que el campo "token" está en la respuesta
 
-                            // Guardar los tokens en SharedPreferences
-                            getSharedPreferences("auth", MODE_PRIVATE)
-                                    .edit()
-                                    .putString("access_token", accessToken)
-                                    .putString("refresh_token", refreshToken)
-                                    .apply();
+                            // Guardar el token en SharedPreferences
+                            setToken(token);
 
                             Toast.makeText(LoginActivity.this, "Login exitoso", Toast.LENGTH_SHORT).show();
 
@@ -98,10 +81,38 @@ public class LoginActivity extends AppCompatActivity {
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
+                // Mostrar un mensaje de error si las credenciales no son correctas
                 Toast.makeText(LoginActivity.this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
             }
         });
 
+        // Añadir la solicitud a la cola
         rq.add(request);
+    }
+
+    // Método para guardar el token en SharedPreferences
+    private void setToken(String token) {
+        getSharedPreferences("auth", MODE_PRIVATE)
+                .edit()
+                .putString("token", token)
+                .apply();
+    }
+
+    // Método para obtener el token desde SharedPreferences
+    private String getToken() {
+        return getSharedPreferences("auth", MODE_PRIVATE).getString("token", null);
+    }
+
+    // Método para eliminar el token de SharedPreferences
+    private void removeToken() {
+        getSharedPreferences("auth", MODE_PRIVATE)
+                .edit()
+                .remove("token")
+                .apply();
+    }
+
+    // Método para verificar si el usuario está autenticado
+    private boolean isAuthenticated() {
+        return getToken() != null;
     }
 }
