@@ -3446,7 +3446,6 @@ int id linearLayout 0x7f08010f
 int id listMode 0x7f080110
 int id list_item 0x7f080111
 int id locale 0x7f080112
-int id locationSpinner 0x7f080113
 int id logo_market 0x7f080114
 int id ltr 0x7f080115
 int id m3_side_sheet 0x7f080116
@@ -3569,7 +3568,6 @@ int id path 0x7f08018a
 int id pathRelative 0x7f08018b
 int id peekHeight 0x7f08018c
 int id percent 0x7f08018d
-int id phone 0x7f08018e
 int id pin 0x7f08018f
 int id position 0x7f080190
 int id postLayout 0x7f080191

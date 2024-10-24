@@ -66,7 +66,6 @@ id header_image
 id imageView
 id img_event
 id linearLayout
-id locationSpinner
 id logo_market
 id main
 id nav_graph
@@ -77,7 +76,6 @@ id nav_notifications
 id nav_profile
 id nav_search
 id password
-id phone
 id profileImage
 id profile_icon
 id profile_image

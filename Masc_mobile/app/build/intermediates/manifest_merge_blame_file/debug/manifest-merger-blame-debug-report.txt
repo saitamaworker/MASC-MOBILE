@@ -47,11 +47,11 @@
 31        android:theme="@style/Theme.Masc_mobile" >
 31-->C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:15:9-49
 32        <activity
-32-->C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:17:9-19:40
+32-->C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:17:9-19:39
 33            android:name="com.example.masc_mobile.ProfileActivity"
 33-->C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:18:13-44
-34            android:exported="false" />
-34-->C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:19:13-37
+34            android:exported="true" />
+34-->C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:19:13-36
 35        <!-- Declaración para ContactActivity -->
 36        <activity
 36-->C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:21:9-23:39

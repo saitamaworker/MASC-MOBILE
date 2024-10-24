@@ -31,7 +31,7 @@
         android:theme="@style/Theme.Masc_mobile" >
         <activity
             android:name="com.example.masc_mobile.ProfileActivity"
-            android:exported="false" />
+            android:exported="true" />
         <!-- Declaración para ContactActivity -->
         <activity
             android:name="com.example.masc_mobile.ContactActivity"

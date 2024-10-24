@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -17,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private EventAdapter eventAdapter;
     private List<Event> eventList;
+    private ImageView profileIcon; // Declarar el ImageView del perfil
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,10 +44,8 @@ public class MainActivity extends AppCompatActivity {
             bottomNavigationView.setOnItemSelectedListener(new BottomNavigationView.OnItemSelectedListener() {
                 @Override
                 public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                    // Usamos if-else en lugar de switch-case
                     int itemId = item.getItemId();
                     if (itemId == R.id.nav_home) {
-                        // No hacemos nada ya que estamos en la pantalla principal
                         return true;
                     } else if (itemId == R.id.nav_profile) {
                         openProfileActivity();
@@ -59,12 +60,23 @@ public class MainActivity extends AppCompatActivity {
                         openStoreActivity();
                         return true;
                     }
-                    return false; // Si no coincide con ningún caso
+                    return false;
                 }
             });
         } else {
             Log.e("MainActivity", "BottomNavigationView es null. Asegúrate de que el layout se cargue correctamente.");
         }
+
+        // Inicializar el ícono del perfil
+        profileIcon = findViewById(R.id.profile_icon);
+
+        // Agregar el listener para que redirija a la actividad de perfil al hacer clic
+        profileIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openProfileActivity();  // Redirigir a la actividad de perfil
+            }
+        });
     }
 
     // Método para cargar los eventos en la lista
@@ -81,19 +93,19 @@ public class MainActivity extends AppCompatActivity {
 
     // Método para abrir la actividad de búsqueda
     public void openSearchActivity() {
-        Intent intent = new Intent(this, LoginActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class); // Cambiar a SearchActivity
         startActivity(intent);
     }
 
     // Método para abrir la actividad de notificaciones
     public void openNotificationsActivity() {
-        Intent intent = new Intent(this, LoginActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class); // Cambiar a NotificationsActivity
         startActivity(intent);
     }
 
     // Método para abrir la actividad de tienda/menu
     public void openStoreActivity() {
-        Intent intent = new Intent(this, LoginActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class); // Cambiar a StoreActivity
         startActivity(intent);
     }
 }

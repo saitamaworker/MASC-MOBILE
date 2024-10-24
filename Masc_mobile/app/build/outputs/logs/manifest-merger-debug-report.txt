@@ -117,9 +117,9 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\al
 	android:dataExtractionRules
 		ADDED from C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:9:9-65
 activity#com.example.masc_mobile.ProfileActivity
-ADDED from C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:17:9-19:40
+ADDED from C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:17:9-19:39
 	android:exported
-		ADDED from C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:19:13-37
+		ADDED from C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:19:13-36
 	android:name
 		ADDED from C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:18:13-44
 activity#com.example.masc_mobile.ContactActivity
