@@ -1,3 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Masc_mobile</string>
+    <!-- Nombre de la app -->
+    <string name="app_name" translatable="false">Mercado de Artes y Servicios Creativos</string>
+
+    <!-- Descripciones para accesibilidad y tests -->
+    <string name="user_profile">Perfil del usuario</string>
+    <string name="logo_market">Logo del Mercado de Artes</string>
+    <string name="settings">Configuración</string>
+
+    <!-- Filtros de la pantalla principal -->
+    <string name="filter_texto" translatable="false">Texto</string>
+    <string name="filter_danza" translatable="false">Danza</string>
+    <string name="filter_pintura" translatable="false">Pintura</string>
+
+    <!-- Secciones -->
+    <string name="section_titles" translatable="false">títulos</string>
+    <string name="section_description">Lorem ipsum dolor sit amet consectetur. Facilisis pellentesque dignissim arcu feugiat. At tortor tortor massa netus sed. Eu leo sapien potenti at cras grav.</string>
+
+    <!-- Menú de navegación inferior -->
+    <string name="nav_home" translatable="false">Inicio</string>
+    <string name="nav_profile" translatable="false">Perfil</string>
+    <string name="nav_search" translatable="false">Buscar</string>
+    <string name="nav_notifications" translatable="false">Notificaciones</string>
+    <string name="nav_store" translatable="false">tienda</string>
+
+    <!-- string fragmentos -->
+    <string name="next">siguiente</string>
+    <string name="previous">anterior</string>
+    <string name="first_fragment_label">etiqueta primer fragmento</string>
+    <string name="second_fragment_label">etiqueta segundo fragmento</string>
 </resources>
