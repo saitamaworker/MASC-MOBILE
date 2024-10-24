@@ -86,11 +86,19 @@ En este [link](https://docs.google.com/document/d/1tD0woiiwuhC0ZnckBN2w5cAZf1QsH
 :small_orange_diamond: **DRIVE Grupal**
 En este [link](https://drive.google.com/drive/folders/1ba9DFmO3WURKgp5lAbNZ9XExrsz_w8vD) se almacena toda la documentación de M.A.S.C 
 
-:small_orange_diamond: **Ideaboardz Retrospective**
-En este [link](https://ideaboardz.com/for/MASC-%20Sprint%200/5366403) se encuentra el Retrospective del Sprint 0 
+:point_right: **Ideaboardz Retrospective**
 
-:small_orange_diamond: **Review Sprint 0**
-En este [link](https://github.com/saitamaworker/MASC-MOBILE/wiki/Sprint-Review-%7C-Sprint-0) se adjunta el Review Sprint 0
+:small_orange_diamond:En este [link](https://ideaboardz.com/for/MASC-%20Sprint%200/5366403) se encuentra el Retrospective del Sprint 0 
+
+:small_orange_diamond:En este [link](https://ideaboardz.com/for/RETROSPECTIVE/5384088) se encuentra el Retrospective del Sprint 01
+
+:point_right: **Review Sprint**
+
+:small_orange_diamond:En este [link](https://github.com/saitamaworker/MASC-MOBILE/wiki/Sprint-Review-%7C-Sprint-0) se adjunta el Review Sprint 0
+
+:small_orange_diamond:En este [link](https://github.com/saitamaworker/MASC-MOBILE/wiki/Sprint-Review-%7C-Sprint-01) se adjunta el Review Sprint 01
+
+:point_right: Modelo Entidad - Relacion. En este [link](https://drive.google.com/drive/folders/1ba9DFmO3WURKgp5lAbNZ9XExrsz_w8vD) se almacena el Diagrama entidad relación actualizado para nuestra app móvil.
 
 
 
