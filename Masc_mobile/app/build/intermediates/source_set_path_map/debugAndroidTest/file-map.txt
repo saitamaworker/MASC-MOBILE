@@ -1,0 +1,5 @@
+com.example.masc_mobile.test.app-core-1.6.1-0 /home/cristian/.gradle/caches/transforms-3/6475dfd7e24d70660493cc930cc971fe/transformed/core-1.6.1/res
+com.example.masc_mobile.test.app-androidTest-1 /home/cristian/Escritorio/Masc mobile/MASC-MOBILE/Masc_mobile/app/build/generated/res/resValues/androidTest/debug
+com.example.masc_mobile.test.app-mergeDebugAndroidTestResources-2 /home/cristian/Escritorio/Masc mobile/MASC-MOBILE/Masc_mobile/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.masc_mobile.test.app-mergeDebugAndroidTestResources-3 /home/cristian/Escritorio/Masc mobile/MASC-MOBILE/Masc_mobile/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.masc_mobile.test.app-merged_res-4 /home/cristian/Escritorio/Masc mobile/MASC-MOBILE/Masc_mobile/app/build/intermediates/merged_res/debugAndroidTest

@@ -13,6 +13,7 @@ color white
 drawable acerca_de_ico
 drawable admin
 drawable artesvisuales
+drawable btn_personalizado
 drawable calendario_ico
 drawable carga
 drawable cinco_ico

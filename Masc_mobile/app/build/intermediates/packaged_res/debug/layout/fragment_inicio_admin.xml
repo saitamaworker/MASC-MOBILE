@@ -48,10 +48,10 @@
                <Button
                    android:id="@+id/Artesvisuales"
                    android:text="@string/Artesvisuales"
-                   android:background="#04B4AE"
+                   android:background="@drawable/btn_personalizado"
                    android:textColor="#000"
                    android:layout_marginTop="10dp"
-                   android:layout_width="wrap_content"
+                   android:layout_width="match_parent"
                    android:layout_height="wrap_content"/>
 
            </androidx.appcompat.widget.LinearLayoutCompat>
@@ -74,10 +74,12 @@
                <Button
                    android:id="@+id/Musicaysonido"
                    android:text="@string/Musicaysonido"
-                   android:background="#04B4AE"
+                   android:background="@drawable/btn_personalizado"
                    android:textColor="#000"
                    android:layout_marginTop="10dp"
-                   android:layout_width="wrap_content"
+                   android:layout_marginStart="5dp"
+
+                   android:layout_width="match_parent"
                    android:layout_height="wrap_content"/>
 
            </androidx.appcompat.widget.LinearLayoutCompat>
@@ -115,10 +117,10 @@
                <Button
                    android:id="@+id/Servicioscreativos"
                    android:text="@string/Servicioscreativos"
-                   android:background="#04B4AE"
+                   android:background="@drawable/btn_personalizado"
                    android:textColor="#000"
                    android:layout_marginTop="10dp"
-                   android:layout_width="wrap_content"
+                   android:layout_width="match_parent"
                    android:layout_height="wrap_content"/>
 
            </androidx.appcompat.widget.LinearLayoutCompat>
@@ -142,10 +144,11 @@
                <Button
                    android:id="@+id/Talleresyeventos"
                    android:text="@string/Talleresyeventos"
-                   android:background="#04B4AE"
+                   android:background="@drawable/btn_personalizado"
                    android:textColor="#000"
                    android:layout_marginTop="10dp"
-                   android:layout_width="wrap_content"
+                   android:layout_marginStart="5dp"
+                   android:layout_width="match_parent"
                    android:layout_height="wrap_content"/>
 
            </androidx.appcompat.widget.LinearLayoutCompat>

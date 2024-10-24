@@ -18,9 +18,7 @@
         <activity
             android:name=".CategoriasAdmin.ServiciosCreativosA"
             android:exported="false" />
-        <activity
-            android:name=".ServiciosCreativos"
-            android:exported="false" />
+
         <activity
             android:name=".CategoriasAdmin.MusicaYsonidoA"
             android:exported="false" />
