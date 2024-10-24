@@ -1,0 +1,6 @@
+com.example.masc_mobile.test.app-core-1.5.0-0 C:\Users\aleja\.gradle\caches\transforms-3\117962e04b98612db46e4ed7d521ed59\transformed\core-1.5.0\res
+com.example.masc_mobile.test.app-annotation-experimental-1.4.1-1 C:\Users\aleja\.gradle\caches\transforms-3\2aff8a2f5f04a45de53b50cd6c8a6d32\transformed\annotation-experimental-1.4.1\res
+com.example.masc_mobile.test.app-androidTest-2 C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\build\generated\res\resValues\androidTest\debug
+com.example.masc_mobile.test.app-mergeDebugAndroidTestResources-3 C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.masc_mobile.test.app-mergeDebugAndroidTestResources-4 C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.masc_mobile.test.app-merged_res-5 C:\Users\aleja\OneDrive\Escritorio\masc-mobile\MASC-MOBILE\Masc_mobile\app\build\intermediates\merged_res\debugAndroidTest

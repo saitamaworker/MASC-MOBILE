@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -22,6 +23,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private EditText etEmail, etPassword;
     private Button btnLogin;
+    private TextView tvRegister;
     private RequestQueue rq;
 
     @Override
@@ -32,12 +34,22 @@ public class LoginActivity extends AppCompatActivity {
         etEmail = findViewById(R.id.etEmail);
         etPassword = findViewById(R.id.etPassword);
         btnLogin = findViewById(R.id.btnLogin);
+        tvRegister = findViewById(R.id.tvRegister);  // Referencia al TextView de "Regístrate"
         rq = Volley.newRequestQueue(this);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 login();
+            }
+        });
+
+        // Configurar el OnClickListener para tvRegister
+        tvRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivity(intent);
             }
         });
     }
@@ -103,7 +115,7 @@ public class LoginActivity extends AppCompatActivity {
         return getSharedPreferences("auth", MODE_PRIVATE).getString("token", null);
     }
 
-    // Método para eliminar el token de SharedPreferences (equivalente a removeToken en Angular)
+    // Método para eliminar el token de SharedPreferences
     private void removeToken() {
         getSharedPreferences("auth", MODE_PRIVATE)
                 .edit()
@@ -111,7 +123,7 @@ public class LoginActivity extends AppCompatActivity {
                 .apply();
     }
 
-    // Método para verificar si el usuario está autenticado 
+    // Método para verificar si el usuario está autenticado
     private boolean isAuthenticated() {
         return getToken() != null;
     }

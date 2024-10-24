@@ -30,13 +30,19 @@
         android:testOnly="true"
         android:theme="@style/Theme.Masc_mobile" >
         <activity
+            android:name="com.example.masc_mobile.ProfileActivity"
+            android:exported="true" />
+        <!-- Declaración para ContactActivity -->
+        <activity
+            android:name="com.example.masc_mobile.ContactActivity"
+            android:exported="true" /> <!-- Declaración para MainActivity -->
+        <activity
+            android:name="com.example.masc_mobile.RegisterActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Masc_mobile" />
+        <activity
             android:name="com.example.masc_mobile.MainActivity"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.example.masc_mobile.LoginActivity"
@@ -62,6 +68,13 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

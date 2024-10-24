@@ -1,0 +1,3 @@
+com.example.masc_mobile.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

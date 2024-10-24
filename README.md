@@ -20,7 +20,7 @@
 
 :small_orange_diamond: ORELLANA, GABRIEL ALEJANDRO
 
-:small_orange_diamond: GIMENEZ, CRISTIAN
+:small_orange_diamond: GIMENEZ, CRISTIAN VICTOR NAHUEL
 
 :small_orange_diamond: LEYTON SEGOVIA, WILLIAM BERNARDO
 
@@ -91,6 +91,8 @@ En este [link](https://ideaboardz.com/for/MASC-%20Sprint%200/5366403) se encuent
 
 :small_orange_diamond: **Review Sprint 0**
 En este [link](https://github.com/saitamaworker/MASC-MOBILE/wiki/Sprint-Review-%7C-Sprint-0) se adjunta el Review Sprint 0
+
+:point_right: Modelo Entidad - Relacion. En este [link](https://drive.google.com/drive/folders/1ba9DFmO3WURKgp5lAbNZ9XExrsz_w8vD) se almacena el Diagrama entidad relación actualizado para nuestra app móvil.
 
 
 
