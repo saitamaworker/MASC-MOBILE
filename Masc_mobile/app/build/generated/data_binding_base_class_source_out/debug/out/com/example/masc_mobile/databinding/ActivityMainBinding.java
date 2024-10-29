@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.masc_mobile.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,6 +21,9 @@ import java.lang.String;
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final BottomNavigationView bottomNavigation;
 
   @NonNull
   public final Button btnDanza;
@@ -42,11 +46,13 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final RecyclerView recyclerViewEvents;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnDanza,
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
+      @NonNull BottomNavigationView bottomNavigation, @NonNull Button btnDanza,
       @NonNull Button btnPintura, @NonNull Button btnTexto, @NonNull LinearLayout filtersContainer,
       @NonNull FooterBinding footer, @NonNull HeaderBinding header,
       @NonNull RecyclerView recyclerViewEvents) {
     this.rootView = rootView;
+    this.bottomNavigation = bottomNavigation;
     this.btnDanza = btnDanza;
     this.btnPintura = btnPintura;
     this.btnTexto = btnTexto;
@@ -83,6 +89,12 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.bottom_navigation;
+      BottomNavigationView bottomNavigation = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNavigation == null) {
+        break missingId;
+      }
+
       id = R.id.btn_danza;
       Button btnDanza = ViewBindings.findChildViewById(rootView, id);
       if (btnDanza == null) {
@@ -127,8 +139,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnDanza, btnPintura, btnTexto,
-          filtersContainer, binding_footer, binding_header, recyclerViewEvents);
+      return new ActivityMainBinding((ConstraintLayout) rootView, bottomNavigation, btnDanza,
+          btnPintura, btnTexto, filtersContainer, binding_footer, binding_header,
+          recyclerViewEvents);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
