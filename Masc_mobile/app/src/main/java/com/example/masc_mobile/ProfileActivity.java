@@ -58,7 +58,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     private void loadUserProfile() {
         // URL de tu API para obtener el perfil del usuario (cambia la URL según tu entorno)
-        String url = "https://masc-yps4.onrender.com/user/profile/";
+        String url = "https://masc-yps4.onrender.com/api/user/profile/";
 
         // Crear una solicitud JSON para obtener los datos del usuario
         RequestQueue queue = Volley.newRequestQueue(this);
