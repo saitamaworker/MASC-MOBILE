@@ -28,6 +28,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final EditText etEmail;
 
   @NonNull
+  public final EditText etFirstName;
+
+  @NonNull
+  public final EditText etLastName;
+
+  @NonNull
   public final EditText etPassword;
 
   @NonNull
@@ -40,11 +46,14 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final ImageView profileImage;
 
   private ActivityRegisterBinding(@NonNull ScrollView rootView, @NonNull Button btnRegister,
-      @NonNull EditText etEmail, @NonNull EditText etPassword, @NonNull EditText etUsername,
-      @NonNull ImageView headerImage, @NonNull ImageView profileImage) {
+      @NonNull EditText etEmail, @NonNull EditText etFirstName, @NonNull EditText etLastName,
+      @NonNull EditText etPassword, @NonNull EditText etUsername, @NonNull ImageView headerImage,
+      @NonNull ImageView profileImage) {
     this.rootView = rootView;
     this.btnRegister = btnRegister;
     this.etEmail = etEmail;
+    this.etFirstName = etFirstName;
+    this.etLastName = etLastName;
     this.etPassword = etPassword;
     this.etUsername = etUsername;
     this.headerImage = headerImage;
@@ -90,6 +99,18 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.et_first_name;
+      EditText etFirstName = ViewBindings.findChildViewById(rootView, id);
+      if (etFirstName == null) {
+        break missingId;
+      }
+
+      id = R.id.et_last_name;
+      EditText etLastName = ViewBindings.findChildViewById(rootView, id);
+      if (etLastName == null) {
+        break missingId;
+      }
+
       id = R.id.et_password;
       EditText etPassword = ViewBindings.findChildViewById(rootView, id);
       if (etPassword == null) {
@@ -114,8 +135,8 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityRegisterBinding((ScrollView) rootView, btnRegister, etEmail, etPassword,
-          etUsername, headerImage, profileImage);
+      return new ActivityRegisterBinding((ScrollView) rootView, btnRegister, etEmail, etFirstName,
+          etLastName, etPassword, etUsername, headerImage, profileImage);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

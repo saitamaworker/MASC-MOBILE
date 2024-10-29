@@ -3376,6 +3376,8 @@ id escape
 id etEmail
 id etPassword
 id et_email
+id et_first_name
+id et_last_name
 id et_password
 id et_username
 id exitUntilCollapsed
@@ -3447,7 +3449,6 @@ id linearLayout
 id listMode
 id list_item
 id locale
-id locationSpinner
 id logo_market
 id ltr
 id m3_side_sheet
@@ -3570,7 +3571,6 @@ id path
 id pathRelative
 id peekHeight
 id percent
-id phone
 id pin
 id position
 id postLayout
