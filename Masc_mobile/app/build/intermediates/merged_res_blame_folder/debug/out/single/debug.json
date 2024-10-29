@@ -40,16 +40,16 @@
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\layout\\activity_profile.xml"
     },
     {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher2_round.xml.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-anydpi-v26/ic_launcher2_round.xml"
+    },
+    {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-mdpi_danza_imagen.webp.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-mdpi\\danza_imagen.webp"
     },
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-xxxhdpi_default_image_foreground.webp.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-xxxhdpi\\default_image_foreground.webp"
-    },
-    {
-        "merged": "com.example.masc_mobile.app-merged_res-43:/layout_activity_register.xml.flat",
-        "source": "com.example.masc_mobile.app-main-45:/layout/activity_register.xml"
     },
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-hdpi_ic_logomasc.webp.flat",
@@ -66,6 +66,10 @@
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-mdpi_danza_imagen_foreground.webp.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-mdpi\\danza_imagen_foreground.webp"
+    },
+    {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-hdpi_ic_launcher2_foreground.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-hdpi/ic_launcher2_foreground.webp"
     },
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\layout_header.xml.flat",
@@ -136,6 +140,10 @@
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-xxhdpi_ic_launcher2_foreground.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-xxhdpi/ic_launcher2_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-hdpi_ic_logom_round.webp.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-hdpi\\ic_logom_round.webp"
     },
@@ -168,8 +176,16 @@
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-xxhdpi\\ic_logo_round.webp"
     },
     {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-mdpi_ic_launcher2.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-mdpi/ic_launcher2.webp"
+    },
+    {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-anydpi-v26_default_image_round.xml.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-anydpi-v26\\default_image_round.xml"
+    },
+    {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-xhdpi_ic_launcher2_foreground.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-xhdpi/ic_launcher2_foreground.webp"
     },
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -240,10 +256,6 @@
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-hdpi\\danza_imagen.webp"
     },
     {
-        "merged": "com.example.masc_mobile.app-merged_res-43:/layout_header.xml.flat",
-        "source": "com.example.masc_mobile.app-main-45:/layout/header.xml"
-    },
-    {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
@@ -258,6 +270,10 @@
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-xhdpi_ic_launcher2.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-xhdpi/ic_launcher2.webp"
     },
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-hdpi_ic_logomasc_foreground.webp.flat",
@@ -282,6 +298,10 @@
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\layout_fragment_second.xml.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher2_foreground.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-xxxhdpi/ic_launcher2_foreground.webp"
     },
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-anydpi-v26_danza_imagen.xml.flat",
@@ -348,6 +368,10 @@
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-xxhdpi\\default_image_round.webp"
     },
     {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-hdpi_ic_launcher2.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-hdpi/ic_launcher2.webp"
+    },
+    {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-hdpi_ic_logo_foreground.webp.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-hdpi\\ic_logo_foreground.webp"
     },
@@ -372,6 +396,14 @@
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\drawable\\pintura_image.jpg"
     },
     {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher2.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-xxxhdpi/ic_launcher2.webp"
+    },
+    {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-xxhdpi_ic_launcher2_round.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-xxhdpi/ic_launcher2_round.webp"
+    },
+    {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\drawable_ic_home.xml.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\drawable\\ic_home.xml"
     },
@@ -382,6 +414,10 @@
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\menu_bottom_navigation_menu.xml.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\menu\\bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher2_round.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-xxxhdpi/ic_launcher2_round.webp"
     },
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-xxxhdpi_ic_logomasc_round.webp.flat",
@@ -468,8 +504,16 @@
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\drawable\\circle_shape.xml"
     },
     {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-hdpi_ic_launcher2_round.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-hdpi/ic_launcher2_round.webp"
+    },
+    {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\drawable_ic_profile.png.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\drawable\\ic_profile.png"
+    },
+    {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-mdpi_ic_launcher2_round.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-mdpi/ic_launcher2_round.webp"
     },
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-hdpi_ic_logo.webp.flat",
@@ -486,6 +530,10 @@
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-xxhdpi_ic_logomasc_round.webp.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-xxhdpi\\ic_logomasc_round.webp"
+    },
+    {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-mdpi_ic_launcher2_foreground.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-mdpi/ic_launcher2_foreground.webp"
     },
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-xxhdpi_danza_imagen.webp.flat",
@@ -552,8 +600,8 @@
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-xhdpi\\ic_logomasc_round.webp"
     },
     {
-        "merged": "com.example.masc_mobile.app-merged_res-43:/layout_activity_login.xml.flat",
-        "source": "com.example.masc_mobile.app-main-45:/layout/activity_login.xml"
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-xxhdpi_ic_launcher2.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-xxhdpi/ic_launcher2.webp"
     },
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-mdpi_danza_imagen_round.webp.flat",
@@ -562,6 +610,10 @@
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\mipmap-mdpi_default_image_round.webp.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\mipmap-mdpi\\default_image_round.webp"
+    },
+    {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-xhdpi_ic_launcher2_round.webp.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-xhdpi/ic_launcher2_round.webp"
     },
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\drawable_ic_settings.xml.flat",
@@ -574,5 +626,9 @@
     {
         "merged": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-merged_res-43:\\drawable_account_circle.xml.flat",
         "source": "C:\\Users\\lucas_moyano\\.gradle\\daemon\\8.0\\com.example.masc_mobile.app-main-45:\\drawable\\account_circle.xml"
+    },
+    {
+        "merged": "com.example.masc_mobile.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher2.xml.flat",
+        "source": "com.example.masc_mobile.app-main-45:/mipmap-anydpi-v26/ic_launcher2.xml"
     }
 ]

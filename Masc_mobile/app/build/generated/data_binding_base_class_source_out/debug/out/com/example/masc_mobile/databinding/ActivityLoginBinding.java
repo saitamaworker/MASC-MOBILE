@@ -47,15 +47,12 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextView textView4;
 
   @NonNull
-  public final TextView textView5;
-
-  @NonNull
   public final TextView tvRegister;
 
   private ActivityLoginBinding(@NonNull LinearLayout rootView, @NonNull Button btnLogin,
       @NonNull EditText etEmail, @NonNull EditText etPassword, @NonNull ImageView imageView,
       @NonNull TextView textView, @NonNull TextView textView2, @NonNull TextView textView3,
-      @NonNull TextView textView4, @NonNull TextView textView5, @NonNull TextView tvRegister) {
+      @NonNull TextView textView4, @NonNull TextView tvRegister) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.etEmail = etEmail;
@@ -65,7 +62,6 @@ public final class ActivityLoginBinding implements ViewBinding {
     this.textView2 = textView2;
     this.textView3 = textView3;
     this.textView4 = textView4;
-    this.textView5 = textView5;
     this.tvRegister = tvRegister;
   }
 
@@ -144,12 +140,6 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView5;
-      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
-      if (textView5 == null) {
-        break missingId;
-      }
-
       id = R.id.tvRegister;
       TextView tvRegister = ViewBindings.findChildViewById(rootView, id);
       if (tvRegister == null) {
@@ -157,7 +147,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((LinearLayout) rootView, btnLogin, etEmail, etPassword,
-          imageView, textView, textView2, textView3, textView4, textView5, tvRegister);
+          imageView, textView, textView2, textView3, textView4, tvRegister);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

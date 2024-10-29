@@ -58,7 +58,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void login() {
-        String url = "https://fakestoreapi.com/users";
+        String url = "https://masc-yps4.onrender.com/api/auth/login/";
         JsonArrayRequest request = new JsonArrayRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONArray>() {
                     @Override

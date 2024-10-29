@@ -3,8 +3,10 @@ local
 color black
 color bottom_nav_item_color
 color button_inactive
+color default_image_background
 color ff3d00
 color footer_background_color
+color ic_launcher2_background
 color primary
 color red
 color text
@@ -85,7 +87,6 @@ id textView
 id textView2
 id textView3
 id textView4
-id textView5
 id textview_first
 id textview_second
 id tvRegister
@@ -111,6 +112,9 @@ mipmap default_image
 mipmap default_image_foreground
 mipmap default_image_round
 mipmap ic_launcher
+mipmap ic_launcher2
+mipmap ic_launcher2_foreground
+mipmap ic_launcher2_round
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 mipmap ic_logo

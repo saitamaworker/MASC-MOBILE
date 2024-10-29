@@ -664,6 +664,7 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="default_image_background">#FFFFFF</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_dark_default_color_background">#121212</color>
     <color name="design_dark_default_color_error">#CF6679</color>
@@ -711,6 +712,7 @@
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
+    <color name="ic_launcher2_background">#FFFFFF</color>
     <color name="m3_ref_palette_black">#ff000000</color>
     <color name="m3_ref_palette_error0">#ff000000</color>
     <color name="m3_ref_palette_error10">#ff410e0b</color>
@@ -2162,7 +2164,7 @@
     <string description="Content description for the X button to clear text [CHAR_LIMIT=NONE]" name="searchview_clear_text_content_description">Clear text</string>
     <string description="Content description for the navigation button to return to the previous screen [CHAR_LIMIT=NONE]" name="searchview_navigation_content_description">Back</string>
     <string name="second_fragment_label">etiqueta segundo fragmento</string>
-    <string name="section_description">Lorem ipsum dolor sit amet consectetur. Facilisis pellentesque dignissim arcu feugiat. At tortor tortor massa netus sed. Eu leo sapien potenti at cras grav.</string>
+    <string name="section_description">Lorem ipsum dolor sit amet consectetur. Facilisis pellentesque dignissim arcu feugiat. At  tortor massa netus sed. Eu leo sapien potenti at cras grav.</string>
     <string name="section_titles" translatable="false">títulos</string>
     <string name="settings">Configuración</string>
     <string description="Title of the side sheet&apos;s accessibility pane that is spoken by TalkBack when the side sheet appears on screen. [CHAR_LIMIT=NONE]" name="side_sheet_accessibility_pane_title">Side Sheet</string>

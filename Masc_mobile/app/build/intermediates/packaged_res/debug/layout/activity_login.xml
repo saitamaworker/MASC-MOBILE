@@ -46,6 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email"
+        android:paddingVertical="16dp"
         android:inputType="textEmailAddress" />
 
     <EditText
@@ -53,6 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
+        android:paddingVertical="16dp"
         android:inputType="textPassword" />
 
     <Button
@@ -66,13 +68,13 @@
         android:textColor="@color/text"
         android:textColorLink="#FF5722"
 />
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:text=""
-        android:textSize="18sp"/>
+<!--    <TextView-->
+<!--        android:id="@+id/textView5"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:text=""-->
+<!--        android:textSize="18sp"/>-->
 
     <TextView
         android:id="@+id/tvRegister"
@@ -81,6 +83,7 @@
         android:textColor="@color/white"
         android:text="No tienes cuenta Registrate"
         android:textSize="16sp"
+        android:padding="16dp"
         android:clickable="true"
         android:focusable="true"/>
 

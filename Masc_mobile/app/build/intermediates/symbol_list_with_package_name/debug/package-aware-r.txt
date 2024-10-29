@@ -1423,6 +1423,7 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color default_image_background
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1473,6 +1474,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher2_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -3680,7 +3682,6 @@ id textView
 id textView2
 id textView3
 id textView4
-id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3951,6 +3952,9 @@ mipmap default_image
 mipmap default_image_foreground
 mipmap default_image_round
 mipmap ic_launcher
+mipmap ic_launcher2
+mipmap ic_launcher2_foreground
+mipmap ic_launcher2_round
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 mipmap ic_logo
