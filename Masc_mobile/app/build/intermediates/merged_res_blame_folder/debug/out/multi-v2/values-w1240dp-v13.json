@@ -4,7 +4,7 @@
             "outputFile": "com.example.masc_mobile.app-mergeDebugResources-41:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\masc-mobile\\MASC-MOBILE\\Masc_mobile\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "F:\\CURSOS\\REPOSITORIOS\\MASC-MOBILE\\Masc_mobile\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

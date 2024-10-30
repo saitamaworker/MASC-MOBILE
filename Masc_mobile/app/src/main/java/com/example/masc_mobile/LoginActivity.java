@@ -3,6 +3,7 @@ package com.example.masc_mobile;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -35,7 +36,10 @@ public class LoginActivity extends AppCompatActivity {
         etPassword = findViewById(R.id.etPassword);
         btnLogin = findViewById(R.id.btnLogin);
         tvRegister = findViewById(R.id.tvRegister);  // Referencia al TextView de "Regístrate"
+        // Inicializar la cola de solicitudes
         rq = Volley.newRequestQueue(this);
+        // **Cancelar solicitudes previas en la cola**
+        rq.cancelAll(request -> true);  // Cancelar todas las solicitudes pendientes
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,12 +60,16 @@ public class LoginActivity extends AppCompatActivity {
 
     private void login() {
         String url = "https://masc-yps4.onrender.com/api/auth/login/";
+        Log.d("LoginActivity", "URL usada para login: " + url);
 
         // Crear el JSON con los datos de login
         JSONObject jsonBody = new JSONObject();
         try {
             jsonBody.put("email", etEmail.getText().toString().trim());
             jsonBody.put("password", etPassword.getText().toString().trim());
+
+            // Imprimir el contenido de jsonBody para verificar los datos enviados
+            Log.d("LoginActivity", "JSON enviado: " + jsonBody.toString());
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -95,6 +103,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onErrorResponse(VolleyError error) {
                 // Mostrar un mensaje de error si las credenciales no son correctas
                 Toast.makeText(LoginActivity.this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
+                Log.e("LoginError", "Error en la solicitud: " + error.toString());// **Log para detalles del error**
             }
         });
 
