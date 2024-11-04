@@ -17,6 +17,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -26,6 +27,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button btnLogin;
     private TextView tvRegister;
     private RequestQueue rq;
+    private TokenManager tokenManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,9 +37,10 @@ public class LoginActivity extends AppCompatActivity {
         etEmail = findViewById(R.id.etEmail);
         etPassword = findViewById(R.id.etPassword);
         btnLogin = findViewById(R.id.btnLogin);
-        tvRegister = findViewById(R.id.tvRegister);  // Referencia al TextView de "Regístrate"
+        tvRegister = findViewById(R.id.tvRegister);
         // Inicializar la cola de solicitudes
         rq = Volley.newRequestQueue(this);
+        tokenManager = new TokenManager(this);
         // **Cancelar solicitudes previas en la cola**
         rq.cancelAll(request -> true);  // Cancelar todas las solicitudes pendientes
 
@@ -82,9 +85,13 @@ public class LoginActivity extends AppCompatActivity {
                         try {
                             // Obtener el token de la respuesta de la API
                             String token = response.getString("token");  // Asumiendo que el campo "token" está en la respuesta
+                            tokenManager.setToken(token);
+                            Log.d("LoginActivity", "Token guardado: " + token);
 
-                            // Guardar el token en SharedPreferences
-                            setToken(token);
+
+                            // Verificar que el token se guardó correctamente
+                            String savedToken = tokenManager.getToken();
+                            Log.d("LoginActivity", "Token recuperado de SharedPreferences: " + savedToken);
 
                             Toast.makeText(LoginActivity.this, "Login exitoso", Toast.LENGTH_SHORT).show();
 
@@ -111,29 +118,29 @@ public class LoginActivity extends AppCompatActivity {
         rq.add(request);
     }
 
-    // Método para guardar el token en SharedPreferences
-    private void setToken(String token) {
-        getSharedPreferences("auth", MODE_PRIVATE)
-                .edit()
-                .putString("token", token)
-                .apply();
-    }
-
-    // Método para obtener el token desde SharedPreferences
-    private String getToken() {
-        return getSharedPreferences("auth", MODE_PRIVATE).getString("token", null);
-    }
-
-    // Método para eliminar el token de SharedPreferences
-    private void removeToken() {
-        getSharedPreferences("auth", MODE_PRIVATE)
-                .edit()
-                .remove("token")
-                .apply();
-    }
-
-    // Método para verificar si el usuario está autenticado
-    private boolean isAuthenticated() {
-        return getToken() != null;
-    }
+//    // Método para guardar el token en SharedPreferences
+//    private void setToken(String token) {
+//        getSharedPreferences("auth", MODE_PRIVATE)
+//                .edit()
+//                .putString("token", token)
+//                .apply();
+//    }
+//
+//    // Método para obtener el token desde SharedPreferences
+//    private String getToken() {
+//        return getSharedPreferences("auth", MODE_PRIVATE).getString("token", null);
+//    }
+//
+//    // Método para eliminar el token de SharedPreferences
+//    private void removeToken() {
+//        getSharedPreferences("auth", MODE_PRIVATE)
+//                .edit()
+//                .remove("token")
+//                .apply();
+//    }
+//
+//    // Método para verificar si el usuario está autenticado
+//    private boolean isAuthenticated() {
+//        return getToken() != null;
+//    }
 }
