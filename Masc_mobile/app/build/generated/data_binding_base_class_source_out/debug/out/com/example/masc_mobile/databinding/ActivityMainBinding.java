@@ -26,13 +26,13 @@ public final class ActivityMainBinding implements ViewBinding {
   public final BottomNavigationView bottomNavigation;
 
   @NonNull
+  public final Button btnCarrito;
+
+  @NonNull
   public final Button btnDanza;
 
   @NonNull
   public final Button btnPintura;
-
-  @NonNull
-  public final Button btnTexto;
 
   @NonNull
   public final LinearLayout filtersContainer;
@@ -47,15 +47,15 @@ public final class ActivityMainBinding implements ViewBinding {
   public final RecyclerView recyclerViewEvents;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull BottomNavigationView bottomNavigation, @NonNull Button btnDanza,
-      @NonNull Button btnPintura, @NonNull Button btnTexto, @NonNull LinearLayout filtersContainer,
+      @NonNull BottomNavigationView bottomNavigation, @NonNull Button btnCarrito,
+      @NonNull Button btnDanza, @NonNull Button btnPintura, @NonNull LinearLayout filtersContainer,
       @NonNull FooterBinding footer, @NonNull HeaderBinding header,
       @NonNull RecyclerView recyclerViewEvents) {
     this.rootView = rootView;
     this.bottomNavigation = bottomNavigation;
+    this.btnCarrito = btnCarrito;
     this.btnDanza = btnDanza;
     this.btnPintura = btnPintura;
-    this.btnTexto = btnTexto;
     this.filtersContainer = filtersContainer;
     this.footer = footer;
     this.header = header;
@@ -95,6 +95,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_carrito;
+      Button btnCarrito = ViewBindings.findChildViewById(rootView, id);
+      if (btnCarrito == null) {
+        break missingId;
+      }
+
       id = R.id.btn_danza;
       Button btnDanza = ViewBindings.findChildViewById(rootView, id);
       if (btnDanza == null) {
@@ -104,12 +110,6 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.btn_pintura;
       Button btnPintura = ViewBindings.findChildViewById(rootView, id);
       if (btnPintura == null) {
-        break missingId;
-      }
-
-      id = R.id.btn_texto;
-      Button btnTexto = ViewBindings.findChildViewById(rootView, id);
-      if (btnTexto == null) {
         break missingId;
       }
 
@@ -139,8 +139,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, bottomNavigation, btnDanza,
-          btnPintura, btnTexto, filtersContainer, binding_footer, binding_header,
+      return new ActivityMainBinding((ConstraintLayout) rootView, bottomNavigation, btnCarrito,
+          btnDanza, btnPintura, filtersContainer, binding_footer, binding_header,
           recyclerViewEvents);
     }
     String missingId = rootView.getResources().getResourceName(id);

@@ -32,6 +32,9 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final EditText email;
 
   @NonNull
+  public final EditText id;
+
+  @NonNull
   public final EditText lastname;
 
   @NonNull
@@ -44,27 +47,25 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final EditText name;
 
   @NonNull
-  public final EditText password;
-
-  @NonNull
   public final ImageView profileImage;
 
   @NonNull
   public final EditText username;
 
   private ActivityProfileBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnDelete,
-      @NonNull Button btnSave, @NonNull EditText email, @NonNull EditText lastname,
-      @NonNull LinearLayout linearLayout, @NonNull ConstraintLayout main, @NonNull EditText name,
-      @NonNull EditText password, @NonNull ImageView profileImage, @NonNull EditText username) {
+      @NonNull Button btnSave, @NonNull EditText email, @NonNull EditText id,
+      @NonNull EditText lastname, @NonNull LinearLayout linearLayout,
+      @NonNull ConstraintLayout main, @NonNull EditText name, @NonNull ImageView profileImage,
+      @NonNull EditText username) {
     this.rootView = rootView;
     this.btnDelete = btnDelete;
     this.btnSave = btnSave;
     this.email = email;
+    this.id = id;
     this.lastname = lastname;
     this.linearLayout = linearLayout;
     this.main = main;
     this.name = name;
-    this.password = password;
     this.profileImage = profileImage;
     this.username = username;
   }
@@ -114,6 +115,12 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.id;
+      EditText id_ = ViewBindings.findChildViewById(rootView, id);
+      if (id_ == null) {
+        break missingId;
+      }
+
       id = R.id.lastname;
       EditText lastname = ViewBindings.findChildViewById(rootView, id);
       if (lastname == null) {
@@ -134,12 +141,6 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.password;
-      EditText password = ViewBindings.findChildViewById(rootView, id);
-      if (password == null) {
-        break missingId;
-      }
-
       id = R.id.profileImage;
       ImageView profileImage = ViewBindings.findChildViewById(rootView, id);
       if (profileImage == null) {
@@ -152,8 +153,8 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityProfileBinding((ConstraintLayout) rootView, btnDelete, btnSave, email,
-          lastname, linearLayout, main, name, password, profileImage, username);
+      return new ActivityProfileBinding((ConstraintLayout) rootView, btnDelete, btnSave, email, id_,
+          lastname, linearLayout, main, name, profileImage, username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

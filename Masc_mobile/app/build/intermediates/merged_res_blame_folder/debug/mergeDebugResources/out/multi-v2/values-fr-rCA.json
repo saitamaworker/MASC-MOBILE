@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.masc_mobile.app-mergeDebugResources-41:/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "com.example.masc_mobile.app-mergeDebugResources-44:/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-4\\7eedd684f38f6dbb2f4fd03f3c8edc08\\transformed\\appcompat-1.6.1\\res\\values-fr-rCA\\values-fr-rCA.xml",

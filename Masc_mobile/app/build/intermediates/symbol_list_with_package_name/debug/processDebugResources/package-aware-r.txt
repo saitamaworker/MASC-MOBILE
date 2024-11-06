@@ -3169,6 +3169,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pintura_image
 drawable rounded_edit_text
+drawable selection_band_overlay
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3280,10 +3281,13 @@ id bounceStart
 id btnDelete
 id btnLogin
 id btnSave
+id btn_add_to_cart
+id btn_carrito
+id btn_comprar
 id btn_danza
 id btn_pintura
 id btn_register
-id btn_texto
+id btn_volver_productos
 id buttonPanel
 id button_first
 id button_second
@@ -3291,6 +3295,7 @@ id cache_measures
 id callMeasure
 id cancel_button
 id carryVelocity
+id cart_buttons
 id center
 id centerCrop
 id centerInside
@@ -3330,6 +3335,7 @@ id date_picker_actions
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
+id decrease_button
 id default_activity_button
 id deltaRelative
 id dependency_ordering
@@ -3365,6 +3371,7 @@ id edit_text_id
 id elastic
 id email
 id embed
+id empty_cart_message
 id end
 id endToStart
 id enterAlways
@@ -3401,6 +3408,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3418,6 +3426,7 @@ id honorRequest
 id horizontal_only
 id icon
 id icon_group
+id id
 id ifRoom
 id ignore
 id ignoreRequest
@@ -3426,10 +3435,12 @@ id imageView
 id img_event
 id immediateStop
 id included
+id increase_button
 id indeterminate
 id info
 id invisible
 id inward
+id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -3564,16 +3575,19 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
-id password
 id password_toggle
 id path
 id pathRelative
 id peekHeight
 id percent
 id pin
+id pooling_container_listener_holder_tag
 id position
 id postLayout
 id pressed
+id product_name
+id product_price
+id product_quantity
 id profileImage
 id profile_icon
 id profile_image
@@ -3582,6 +3596,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recycler_view_cart
 id recycler_view_events
 id report_drawn
 id reverseSawtooth
@@ -3700,6 +3715,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id total_amount
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3714,6 +3730,8 @@ id transition_transform
 id triangle
 id tvRegister
 id tv_description
+id tv_price
+id tv_quantity
 id tv_title
 id unchecked
 id uniform
@@ -3859,6 +3877,7 @@ layout activity_login
 layout activity_main
 layout activity_profile
 layout activity_register
+layout carrito
 layout content_register
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3883,6 +3902,8 @@ layout fragment_second
 layout header
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_cart
+layout item_product
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

@@ -4,6 +4,7 @@ package com.example.masc_mobile.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -21,19 +22,32 @@ public final class EventItemBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final Button btnAddToCart;
+
+  @NonNull
   public final ImageView imgEvent;
 
   @NonNull
   public final TextView tvDescription;
 
   @NonNull
+  public final TextView tvPrice;
+
+  @NonNull
+  public final TextView tvQuantity;
+
+  @NonNull
   public final TextView tvTitle;
 
-  private EventItemBinding(@NonNull LinearLayout rootView, @NonNull ImageView imgEvent,
-      @NonNull TextView tvDescription, @NonNull TextView tvTitle) {
+  private EventItemBinding(@NonNull LinearLayout rootView, @NonNull Button btnAddToCart,
+      @NonNull ImageView imgEvent, @NonNull TextView tvDescription, @NonNull TextView tvPrice,
+      @NonNull TextView tvQuantity, @NonNull TextView tvTitle) {
     this.rootView = rootView;
+    this.btnAddToCart = btnAddToCart;
     this.imgEvent = imgEvent;
     this.tvDescription = tvDescription;
+    this.tvPrice = tvPrice;
+    this.tvQuantity = tvQuantity;
     this.tvTitle = tvTitle;
   }
 
@@ -64,6 +78,12 @@ public final class EventItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_add_to_cart;
+      Button btnAddToCart = ViewBindings.findChildViewById(rootView, id);
+      if (btnAddToCart == null) {
+        break missingId;
+      }
+
       id = R.id.img_event;
       ImageView imgEvent = ViewBindings.findChildViewById(rootView, id);
       if (imgEvent == null) {
@@ -76,13 +96,26 @@ public final class EventItemBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_price;
+      TextView tvPrice = ViewBindings.findChildViewById(rootView, id);
+      if (tvPrice == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_quantity;
+      TextView tvQuantity = ViewBindings.findChildViewById(rootView, id);
+      if (tvQuantity == null) {
+        break missingId;
+      }
+
       id = R.id.tv_title;
       TextView tvTitle = ViewBindings.findChildViewById(rootView, id);
       if (tvTitle == null) {
         break missingId;
       }
 
-      return new EventItemBinding((LinearLayout) rootView, imgEvent, tvDescription, tvTitle);
+      return new EventItemBinding((LinearLayout) rootView, btnAddToCart, imgEvent, tvDescription,
+          tvPrice, tvQuantity, tvTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -26,11 +26,11 @@
         app:layout_constraintTop_toBottomOf="@id/header">
 
         <Button
-            android:id="@+id/btn_texto"
+            android:id="@+id/btn_carrito"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/filter_texto"
             android:backgroundTint="@color/button_inactive"
+            android:text="Carrito"
             android:textColor="@android:color/black" />
 
         <Button

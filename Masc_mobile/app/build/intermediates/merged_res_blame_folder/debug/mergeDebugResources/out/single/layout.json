@@ -1,50 +1,62 @@
 [
     {
-        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-42:\\layout\\activity_register.xml",
-        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-45:\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-45:\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-48:\\layout\\activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-42:\\layout\\header.xml",
-        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-45:\\layout\\header.xml"
+        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-45:\\layout\\footer.xml",
+        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-48:\\layout\\footer.xml"
     },
     {
-        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-42:\\layout\\fragment_second.xml",
-        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-45:\\layout\\fragment_second.xml"
+        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-45:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-48:\\layout\\fragment_second.xml"
     },
     {
-        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-42:\\layout\\event_item.xml",
-        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-45:\\layout\\event_item.xml"
+        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-45:\\layout\\header.xml",
+        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-48:\\layout\\header.xml"
     },
     {
-        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-42:\\layout\\activity_profile.xml",
-        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-45:\\layout\\activity_profile.xml"
+        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-45:\\layout\\content_register.xml",
+        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-48:\\layout\\content_register.xml"
     },
     {
-        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-42:\\layout\\activity_contact.xml",
-        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-45:\\layout\\activity_contact.xml"
+        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-45:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-48:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-42:\\layout\\content_register.xml",
-        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-45:\\layout\\content_register.xml"
+        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-45:\\layout\\activity_contact.xml",
+        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-48:\\layout\\activity_contact.xml"
     },
     {
-        "merged": "com.example.masc_mobile.app-mergeDebugResources-42:/layout/activity_main.xml",
-        "source": "com.example.masc_mobile.app-main-45:/layout/activity_main.xml"
+        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-45:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-48:\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-42:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-45:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-45:\\layout\\event_item.xml",
+        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-48:\\layout\\event_item.xml"
     },
     {
-        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-42:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-45:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-45:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-48:\\layout\\fragment_first.xml"
     },
     {
-        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-42:\\layout\\fragment_first.xml",
-        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-45:\\layout\\fragment_first.xml"
+        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-45:\\layout\\item_cart.xml",
+        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-48:\\layout\\item_cart.xml"
     },
     {
-        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-42:\\layout\\footer.xml",
-        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-45:\\layout\\footer.xml"
+        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-45:\\layout\\carrito.xml",
+        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-48:\\layout\\carrito.xml"
+    },
+    {
+        "merged": "com.example.masc_mobile.app-mergeDebugResources-45:/layout/carrito.xml",
+        "source": "com.example.masc_mobile.app-main-48:/layout/carrito.xml"
+    },
+    {
+        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-45:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-48:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-mergeDebugResources-45:\\layout\\item_product.xml",
+        "source": "C:\\Users\\aleja\\.gradle\\daemon\\8.7\\com.example.masc_mobile.app-main-48:\\layout\\item_product.xml"
     }
 ]

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.masc_mobile.app-mergeDebugResources-41:/values-v24/values-v24.xml",
+            "outputFile": "com.example.masc_mobile.app-mergeDebugResources-44:/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-4\\40ad8411c7c68fe7fc2daf538ca42d04\\transformed\\material-1.12.0\\res\\values-v24\\values-v24.xml",

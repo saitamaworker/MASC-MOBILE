@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:2:1-48:12
 MERGED from [androidx.databinding:viewbinding:8.5.1] C:\Users\aleja\.gradle\caches\transforms-4\6923d76a0341f669eb8a699cff137553\transformed\viewbinding-8.5.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.volley:volley:1.2.1] C:\Users\aleja\.gradle\caches\transforms-4\4bbb6a6b5901258bf8b2ec1ea06662a1\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.8.2] C:\Users\aleja\.gradle\caches\transforms-4\ea596699646b74a7f3dbaa11b5cc033d\transformed\navigation-common-2.8.2\AndroidManifest.xml:17:1-22:12
@@ -14,12 +14,14 @@ MERGED from [com.google.android.material:material:1.12.0] C:\Users\aleja\.gradle
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\aleja\.gradle\caches\transforms-4\3a1c987e9afcff9f4c38c72cf96d7204\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\aleja\.gradle\caches\transforms-4\3aba824009b44ee572700f67072e8894\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\aleja\.gradle\caches\transforms-4\7eedd684f38f6dbb2f4fd03f3c8edc08\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\7aead1c703b94985d37fd461a4908773\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\aleja\.gradle\caches\transforms-4\e5d28155a1b2b6df44759a338705b190\transformed\glide-4.15.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\aleja\.gradle\caches\transforms-4\255b1c3b589eccc2b3736c1049fa882a\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] C:\Users\aleja\.gradle\caches\transforms-4\54b86e2d43de268098be0001b18952a8\transformed\recyclerview-selection-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\aleja\.gradle\caches\transforms-4\58f48c5d2fa15bdd3156e10c8e725d36\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\aleja\.gradle\caches\transforms-4\037e217183164d4487558be00155f2c4\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\aleja\.gradle\caches\transforms-4\ce0e77d02c893d87e0d387063884e05d\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\aleja\.gradle\caches\transforms-4\dfd9fa6514e14b4fdb3386e5a7d0e7be\transformed\activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity:1.8.0] C:\Users\aleja\.gradle\caches\transforms-4\dd591803ec301d0c8f39c949e5ea5dda\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\aleja\.gradle\caches\transforms-4\044bd5ea98d1e38bd8ac7793e6484ca7\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\cb3f09c54f575eb201b9dbe51f5e6311\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\aleja\.gradle\caches\transforms-4\09cbdb9ec9e18b84981a6ebdf8d96bcc\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\aleja\.gradle\caches\transforms-4\1f5e57b8754160a23a6709434f8e6333\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
@@ -37,6 +39,7 @@ MERGED from [androidx.customview:customview:1.1.0] C:\Users\aleja\.gradle\caches
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\cbfd5925f6aa1efe8b5d17ea9c429771\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.window:window:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\095a7ca8b358be31c8f63a85aba6a059\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\56996f7ed875897ca150f5a683c36618\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\cdb8ccef7717f6f12c101a692f27d932\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\aleja\.gradle\caches\transforms-4\1061811c8739b5cf8f0c03e27e3b0960\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.core:core:1.13.0] C:\Users\aleja\.gradle\caches\transforms-4\5d822b3a6952f96dd5ff5b422c34fdc3\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\aleja\.gradle\caches\transforms-4\ffc37a7f5e1dd9bb512f7e267b277be5\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
@@ -52,6 +55,8 @@ MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\aleja\.gradle\caches
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aleja\.gradle\caches\transforms-4\d5e45f7ac698bef27d8ecfb94a18f81c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\aleja\.gradle\caches\transforms-4\cefb8775a2402c10a79135325858f882\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\956700021267f7c330d39506d91a3418\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\aleja\.gradle\caches\transforms-4\874ee5c67991e46e1d51886829757665\transformed\gifdecoder-4.15.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\aleja\.gradle\caches\transforms-4\119ccb0ae2cc0ce47542db5d9c14e578\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\bc2ea5108ae9751cb42e715048c62ae1\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\722fd5709b8ea925cd7270bb765195f5\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\089d0b156218912114b2c86773bc1289\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -74,12 +79,14 @@ ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\
 	android:name
 		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:7:5-41:19
-INJECTED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:7:5-41:19
+ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:7:5-46:19
+INJECTED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:7:5-46:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\aleja\.gradle\caches\transforms-4\40ad8411c7c68fe7fc2daf538ca42d04\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\aleja\.gradle\caches\transforms-4\40ad8411c7c68fe7fc2daf538ca42d04\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\aleja\.gradle\caches\transforms-4\3a1c987e9afcff9f4c38c72cf96d7204\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\aleja\.gradle\caches\transforms-4\3a1c987e9afcff9f4c38c72cf96d7204\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\aleja\.gradle\caches\transforms-4\e5d28155a1b2b6df44759a338705b190\transformed\glide-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\aleja\.gradle\caches\transforms-4\e5d28155a1b2b6df44759a338705b190\transformed\glide-4.15.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\aleja\.gradle\caches\transforms-4\1f5e57b8754160a23a6709434f8e6333\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\aleja\.gradle\caches\transforms-4\1f5e57b8754160a23a6709434f8e6333\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\095a7ca8b358be31c8f63a85aba6a059\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
@@ -92,6 +99,8 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aleja\.g
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aleja\.gradle\caches\transforms-4\d5e45f7ac698bef27d8ecfb94a18f81c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\aleja\.gradle\caches\transforms-4\cefb8775a2402c10a79135325858f882\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\aleja\.gradle\caches\transforms-4\cefb8775a2402c10a79135325858f882\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\aleja\.gradle\caches\transforms-4\874ee5c67991e46e1d51886829757665\transformed\gifdecoder-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\aleja\.gradle\caches\transforms-4\874ee5c67991e46e1d51886829757665\transformed\gifdecoder-4.15.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aleja\.gradle\caches\transforms-4\5a509c1c9259abe0f433cc66c0331121\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aleja\.gradle\caches\transforms-4\5a509c1c9259abe0f433cc66c0331121\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
@@ -136,28 +145,32 @@ ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\
 		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:27:13-53
 	android:name
 		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:25:13-45
-activity#com.example.masc_mobile.MainActivity
-ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:28:9-32:20
-	android:exported
-		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:30:13-36
+activity#com.example.masc_mobile.CartActivity
+ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:28:9-31:20
 	android:name
-		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:29:13-41
-activity#com.example.masc_mobile.LoginActivity
-ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:33:9-40:20
+		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:28:19-47
+activity#com.example.masc_mobile.MainActivity
+ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:33:9-37:20
 	android:exported
 		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:34:13-42
+		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:34:13-41
+activity#com.example.masc_mobile.LoginActivity
+ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:38:9-45:20
+	android:exported
+		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:40:13-36
+	android:name
+		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:39:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:36:13-39:29
+ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:41:13-44:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:37:17-69
+ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:42:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:38:17-77
+ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:43:17-77
 	android:name
-		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml:43:27-74
 uses-sdk
 INJECTED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\aleja\Downloads\mobile\MASC-MOBILE\Masc_mobile\app\src\main\AndroidManifest.xml
@@ -182,18 +195,22 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\aleja\.gradl
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\aleja\.gradle\caches\transforms-4\3aba824009b44ee572700f67072e8894\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\aleja\.gradle\caches\transforms-4\7eedd684f38f6dbb2f4fd03f3c8edc08\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\aleja\.gradle\caches\transforms-4\7eedd684f38f6dbb2f4fd03f3c8edc08\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\7aead1c703b94985d37fd461a4908773\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\7aead1c703b94985d37fd461a4908773\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\aleja\.gradle\caches\transforms-4\e5d28155a1b2b6df44759a338705b190\transformed\glide-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\aleja\.gradle\caches\transforms-4\e5d28155a1b2b6df44759a338705b190\transformed\glide-4.15.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\aleja\.gradle\caches\transforms-4\255b1c3b589eccc2b3736c1049fa882a\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\aleja\.gradle\caches\transforms-4\255b1c3b589eccc2b3736c1049fa882a\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] C:\Users\aleja\.gradle\caches\transforms-4\54b86e2d43de268098be0001b18952a8\transformed\recyclerview-selection-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] C:\Users\aleja\.gradle\caches\transforms-4\54b86e2d43de268098be0001b18952a8\transformed\recyclerview-selection-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\aleja\.gradle\caches\transforms-4\58f48c5d2fa15bdd3156e10c8e725d36\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\aleja\.gradle\caches\transforms-4\58f48c5d2fa15bdd3156e10c8e725d36\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\aleja\.gradle\caches\transforms-4\037e217183164d4487558be00155f2c4\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\aleja\.gradle\caches\transforms-4\037e217183164d4487558be00155f2c4\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\aleja\.gradle\caches\transforms-4\ce0e77d02c893d87e0d387063884e05d\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\aleja\.gradle\caches\transforms-4\ce0e77d02c893d87e0d387063884e05d\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\aleja\.gradle\caches\transforms-4\dfd9fa6514e14b4fdb3386e5a7d0e7be\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\aleja\.gradle\caches\transforms-4\dfd9fa6514e14b4fdb3386e5a7d0e7be\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity:1.8.0] C:\Users\aleja\.gradle\caches\transforms-4\dd591803ec301d0c8f39c949e5ea5dda\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.8.0] C:\Users\aleja\.gradle\caches\transforms-4\dd591803ec301d0c8f39c949e5ea5dda\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\aleja\.gradle\caches\transforms-4\044bd5ea98d1e38bd8ac7793e6484ca7\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\aleja\.gradle\caches\transforms-4\044bd5ea98d1e38bd8ac7793e6484ca7\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\cb3f09c54f575eb201b9dbe51f5e6311\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\cb3f09c54f575eb201b9dbe51f5e6311\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\aleja\.gradle\caches\transforms-4\09cbdb9ec9e18b84981a6ebdf8d96bcc\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
@@ -228,6 +245,8 @@ MERGED from [androidx.window:window:1.0.0] C:\Users\aleja\.gradle\caches\transfo
 MERGED from [androidx.window:window:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\095a7ca8b358be31c8f63a85aba6a059\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\56996f7ed875897ca150f5a683c36618\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\56996f7ed875897ca150f5a683c36618\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\cdb8ccef7717f6f12c101a692f27d932\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\cdb8ccef7717f6f12c101a692f27d932\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\aleja\.gradle\caches\transforms-4\1061811c8739b5cf8f0c03e27e3b0960\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\aleja\.gradle\caches\transforms-4\1061811c8739b5cf8f0c03e27e3b0960\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core:1.13.0] C:\Users\aleja\.gradle\caches\transforms-4\5d822b3a6952f96dd5ff5b422c34fdc3\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
@@ -258,6 +277,10 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\aleja\.gradle\cach
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\aleja\.gradle\caches\transforms-4\cefb8775a2402c10a79135325858f882\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\956700021267f7c330d39506d91a3418\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\956700021267f7c330d39506d91a3418\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\aleja\.gradle\caches\transforms-4\874ee5c67991e46e1d51886829757665\transformed\gifdecoder-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\aleja\.gradle\caches\transforms-4\874ee5c67991e46e1d51886829757665\transformed\gifdecoder-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\aleja\.gradle\caches\transforms-4\119ccb0ae2cc0ce47542db5d9c14e578\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\aleja\.gradle\caches\transforms-4\119ccb0ae2cc0ce47542db5d9c14e578\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\bc2ea5108ae9751cb42e715048c62ae1\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\bc2ea5108ae9751cb42e715048c62ae1\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\aleja\.gradle\caches\transforms-4\722fd5709b8ea925cd7270bb765195f5\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44

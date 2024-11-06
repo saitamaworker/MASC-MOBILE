@@ -40,6 +40,8 @@
             android:name="com.example.masc_mobile.RegisterActivity"
             android:exported="true"
             android:theme="@style/Theme.Masc_mobile" />
+        <activity android:name="com.example.masc_mobile.CartActivity" >
+        </activity>
         <activity
             android:name="com.example.masc_mobile.MainActivity"
             android:exported="true" >

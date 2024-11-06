@@ -1,0 +1,58 @@
+<!-- res/layout/carrito.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <!-- Mensaje de carrito vacío -->
+    <TextView
+        android:id="@+id/empty_cart_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El carrito está vacío"
+        android:visibility="gone" /> <!-- Oculto por defecto -->
+
+
+    <!-- RecyclerView para mostrar los productos del carrito -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_cart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- TextView para mostrar el total -->
+    <TextView
+        android:id="@+id/total_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total: $0"
+        android:textSize="18sp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/cart_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Botón Volver a productos -->
+        <Button
+            android:id="@+id/btn_volver_productos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver a productos"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Botón Comprar -->
+        <Button
+            android:id="@+id/btn_comprar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comprar"/>
+
+    </LinearLayout>
+</LinearLayout>
