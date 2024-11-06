@@ -17,11 +17,13 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
+import android.content.Intent;
+
 
 public class ProfileActivity extends AppCompatActivity {
 
     private TextView userNameTextView, userEmailTextView;
-    private Button updateProfileButton;
+    private Button updateProfileButton, btnLogout;
     private TokenManager tokenManager;
     private RequestQueue queue;
 
@@ -36,6 +38,7 @@ public class ProfileActivity extends AppCompatActivity {
         userNameTextView = findViewById(R.id.username);
         userEmailTextView = findViewById(R.id.email);
         updateProfileButton = findViewById(R.id.btnSave);
+        btnLogout = findViewById(R.id.btnlogout);
         queue = Volley.newRequestQueue(this);
 
 
@@ -57,6 +60,15 @@ public class ProfileActivity extends AppCompatActivity {
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
+            }
+        });
+
+        // Configurar el botón de cerrar sesión
+        btnLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Llamar al método de cierre de sesión
+                logout();
             }
         });
     }
@@ -103,16 +115,14 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public Map<String, String> getHeaders() {
                 Map<String, String> headers = new HashMap<>();
-                headers.put("Authorization", "Bearer " + token);  // Agrega el token de autenticación
-                headers.put("Content-Type", "application/json");
-                headers.put("Cache-Control", "no-cache");
-                headers.put("User-Agent", "PostmanRuntime/7.42.0");
-                headers.put("Accept", "*/*");
-                headers.put("Connection", "keep-alive");
+                headers.put("Authorization", "Bearer " +  tokenManager.getToken());  // Agrega el token de autenticación
+                SharedPreferences preferences = getSharedPreferences("UserPrefs", MODE_PRIVATE);
+                String csrfToken = preferences.getString("csrfToken", "");
+                String sessionId = preferences.getString("sessionId", "");
                 Log.d("AuthCheck", "Headers enviados: " + headers.toString());
-// Añade la cookie csrftoken
-                String csrfToken = "csrftoken=3Ypy4l3yyFnht4QaqC5cxwFsMhLncVYY; sessionid=cew84dxgq4ptq19fx0vx7mqfk2vdsvn4"; // Obtén este valor de donde lo tengas almacenado
-                headers.put("Cookie", "csrftoken=" + csrfToken);
+
+                headers.put("Cookie", "csrftoken=" + csrfToken + "; sessionid=" + sessionId);
+                headers.put("Content-Type", "application/json");
                 return headers;
             }
         };
@@ -155,20 +165,23 @@ public class ProfileActivity extends AppCompatActivity {
             public Map<String, String> getHeaders() {
                 Map<String, String> headers = new HashMap<>();
                 headers.put("Authorization", "Bearer " + token);  // Agregar el token de autenticación
-                headers.put("Content-Type", "application/json");
-                headers.put("Cache-Control", "no-cache");
-                headers.put("User-Agent", "PostmanRuntime/7.42.0");
-                headers.put("Accept", "*/*");
-                headers.put("Connection", "keep-alive");
-                Log.d("AuthCheck", "Headers enviados: " + headers.toString());
-// Añade la cookie csrftoken
-                String csrfToken = "csrftoken=3Ypy4l3yyFnht4QaqC5cxwFsMhLncVYY; sessionid=cew84dxgq4ptq19fx0vx7mqfk2vdsvn4"; // Obtén este valor de donde lo tengas almacenado
-                headers.put("Cookie", "csrftoken=" + csrfToken);
+//
                 return headers;
             }
         };
 
         queue.add(patchRequest);
+    }
+
+    // Método para cerrar sesión
+    private void logout() {
+        tokenManager.logout();  // Eliminar el token almacenado
+
+        // Redirigir al usuario a la pantalla de login
+        Intent intent = new Intent(ProfileActivity.this, LoginActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);  // Limpiar el historial de actividades
+        startActivity(intent);
+        finish();
     }
 
 }

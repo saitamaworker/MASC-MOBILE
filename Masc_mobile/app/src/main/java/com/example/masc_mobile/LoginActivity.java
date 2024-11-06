@@ -10,23 +10,34 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.Volley;
+//import com.android.volley.Request;
+//import com.android.volley.RequestQueue;
+//import com.android.volley.Response;
+//import com.android.volley.VolleyError;
+//import com.android.volley.toolbox.JsonObjectRequest;
+//import com.android.volley.toolbox.Volley;
 
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import okhttp3.*;
+import java.io.IOException;
+
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 
 public class LoginActivity extends AppCompatActivity {
 
     private EditText etEmail, etPassword;
     private Button btnLogin;
     private TextView tvRegister;
-    private RequestQueue rq;
+//    private RequestQueue rq;
     private TokenManager tokenManager;
 
     @Override
@@ -39,15 +50,15 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin = findViewById(R.id.btnLogin);
         tvRegister = findViewById(R.id.tvRegister);
         // Inicializar la cola de solicitudes
-        rq = Volley.newRequestQueue(this);
+//        rq = Volley.newRequestQueue(this);
         tokenManager = new TokenManager(this);
         // **Cancelar solicitudes previas en la cola**
-        rq.cancelAll(request -> true);  // Cancelar todas las solicitudes pendientes
+//        rq.cancelAll(request -> true);  // Cancelar todas las solicitudes pendientes
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                login();
+                loginWithOkHttp();
             }
         });
 
@@ -61,7 +72,9 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-    private void login() {
+    private void loginWithOkHttp() {
+        OkHttpClient client = new OkHttpClient();
+
         String url = "https://masc-yps4.onrender.com/api/auth/login/";
         Log.d("LoginActivity", "URL usada para login: " + url);
 
@@ -76,47 +89,106 @@ public class LoginActivity extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
+        // Convertir el JSON en un RequestBody
+        RequestBody body = RequestBody.create(jsonBody.toString(), MediaType.parse("application/json; charset=utf-8"));
 
-        // Crear la solicitud HTTP
-        JsonObjectRequest request = new JsonObjectRequest(Request.Method.POST, url, jsonBody,
-                new Response.Listener<JSONObject>() {
-                    @Override
-                    public void onResponse(JSONObject response) {
-                        try {
-                            // Obtener el token de la respuesta de la API
-                            String token = response.getString("token");  // Asumiendo que el campo "token" está en la respuesta
-                            tokenManager.setToken(token);
-                            Log.d("LoginActivity", "Token guardado: " + token);
+        // Crear la solicitud HTTP POST
+        Request request = new Request.Builder()
+                .url(url)
+                .post(body)
+                .build();
+        // Ejecutar la solicitud de forma asíncrona
+        client.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                e.printStackTrace();
+                runOnUiThread(() -> {
+                    Toast.makeText(LoginActivity.this, "Error en la solicitud: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                });
+                Log.e("LoginError", "Error en la solicitud: " + e.toString());
+            }
 
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                if (response.isSuccessful()) {
+                    try {
+                        // Procesar la respuesta y obtener el token
+                        JSONObject jsonResponse = new JSONObject(response.body().string());
+                        String token = jsonResponse.getString("token"); // Asegúrate de que el campo "token" esté en la respuesta
 
-                            // Verificar que el token se guardó correctamente
-                            String savedToken = tokenManager.getToken();
-                            Log.d("LoginActivity", "Token recuperado de SharedPreferences: " + savedToken);
+                        tokenManager.setToken(token);
+                        Log.d("LoginActivity", "Token guardado: " + token);
 
+                        // Verificar que el token se guardó correctamente
+                        String savedToken = tokenManager.getToken();
+                        Log.d("LoginActivity", "Token recuperado de SharedPreferences: " + savedToken);
+
+                        // Redirigir a la actividad principal en el hilo de UI
+                        runOnUiThread(() -> {
                             Toast.makeText(LoginActivity.this, "Login exitoso", Toast.LENGTH_SHORT).show();
-
-                            // Redirigir a la actividad principal
                             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                             startActivity(intent);
-                            finish();  // Terminar LoginActivity
-
-                        } catch (JSONException e) {
-                            e.printStackTrace();
+                            finish();
+                        });
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                        runOnUiThread(() -> {
                             Toast.makeText(LoginActivity.this, "Error al procesar respuesta", Toast.LENGTH_SHORT).show();
-                        }
+                        });
                     }
-                }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                // Mostrar un mensaje de error si las credenciales no son correctas
-                Toast.makeText(LoginActivity.this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
-                Log.e("LoginError", "Error en la solicitud: " + error.toString());// **Log para detalles del error**
+                } else {
+                    // Manejar errores (por ejemplo, credenciales incorrectas)
+                    runOnUiThread(() -> {
+                        Toast.makeText(LoginActivity.this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
+                    });
+                    Log.e("LoginError", "Error en la solicitud: " + response.toString());
+                }
             }
         });
-
-        // Añadir la solicitud a la cola
-        rq.add(request);
     }
+}
+
+//        // Crear la solicitud HTTP
+//        JsonObjectRequest request = new JsonObjectRequest(Request.Method.POST, url, jsonBody,
+//                new Response.Listener<JSONObject>() {
+//                    @Override
+//                    public void onResponse(JSONObject response) {
+//                        try {
+//                            // Obtener el token de la respuesta de la API
+//                            String token = response.getString("token");  // Asumiendo que el campo "token" está en la respuesta
+//
+//                            tokenManager.setToken(token);
+//                            Log.d("LoginActivity", "Token guardado: " + token);
+//
+//
+//                            // Verificar que el token se guardó correctamente
+//                            String savedToken = tokenManager.getToken();
+//                            Log.d("LoginActivity", "Token recuperado de SharedPreferences: " + savedToken);
+//
+//                            Toast.makeText(LoginActivity.this, "Login exitoso", Toast.LENGTH_SHORT).show();
+//
+//                            // Redirigir a la actividad principal
+//                            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+//                            startActivity(intent);
+//                            finish();  // Terminar LoginActivity
+//
+//                        } catch (JSONException e) {
+//                            e.printStackTrace();
+//                            Toast.makeText(LoginActivity.this, "Error al procesar respuesta", Toast.LENGTH_SHORT).show();
+//                        }
+//                    }
+//                }, new Response.ErrorListener() {
+//            @Override
+//            public void onErrorResponse(VolleyError error) {
+//                // Mostrar un mensaje de error si las credenciales no son correctas
+//                Toast.makeText(LoginActivity.this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
+//                Log.e("LoginError", "Error en la solicitud: " + error.toString());// **Log para detalles del error**
+//            }
+//        });
+//
+//        // Añadir la solicitud a la cola
+//        rq.add(request);
+//    }
 
 //    // Método para guardar el token en SharedPreferences
 //    private void setToken(String token) {
@@ -143,4 +215,4 @@ public class LoginActivity extends AppCompatActivity {
 //    private boolean isAuthenticated() {
 //        return getToken() != null;
 //    }
-}
+//}

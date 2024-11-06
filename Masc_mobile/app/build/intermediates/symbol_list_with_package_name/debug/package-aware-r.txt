@@ -2143,6 +2143,7 @@ color primary_text_disabled_material_light
 color red
 color ripple_material_dark
 color ripple_material_light
+color secondary
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -3287,6 +3288,7 @@ id btn_danza
 id btn_pintura
 id btn_register
 id btn_texto
+id btnlogout
 id buttonPanel
 id button_first
 id button_second

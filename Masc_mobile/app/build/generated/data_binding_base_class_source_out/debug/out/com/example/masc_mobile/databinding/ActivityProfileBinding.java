@@ -32,6 +32,9 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final Button btnSave;
 
   @NonNull
+  public final Button btnlogout;
+
+  @NonNull
   public final EditText email;
 
   @NonNull
@@ -50,13 +53,14 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final EditText username;
 
   private ActivityProfileBinding(@NonNull ConstraintLayout rootView, @NonNull EditText biography,
-      @NonNull Button btnDelete, @NonNull Button btnSave, @NonNull EditText email,
-      @NonNull LinearLayout linearLayout, @NonNull ConstraintLayout main,
+      @NonNull Button btnDelete, @NonNull Button btnSave, @NonNull Button btnlogout,
+      @NonNull EditText email, @NonNull LinearLayout linearLayout, @NonNull ConstraintLayout main,
       @NonNull EditText password, @NonNull ImageView profileImage, @NonNull EditText username) {
     this.rootView = rootView;
     this.biography = biography;
     this.btnDelete = btnDelete;
     this.btnSave = btnSave;
+    this.btnlogout = btnlogout;
     this.email = email;
     this.linearLayout = linearLayout;
     this.main = main;
@@ -110,6 +114,12 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnlogout;
+      Button btnlogout = ViewBindings.findChildViewById(rootView, id);
+      if (btnlogout == null) {
+        break missingId;
+      }
+
       id = R.id.email;
       EditText email = ViewBindings.findChildViewById(rootView, id);
       if (email == null) {
@@ -143,7 +153,7 @@ public final class ActivityProfileBinding implements ViewBinding {
       }
 
       return new ActivityProfileBinding((ConstraintLayout) rootView, biography, btnDelete, btnSave,
-          email, linearLayout, main, password, profileImage, username);
+          btnlogout, email, linearLayout, main, password, profileImage, username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

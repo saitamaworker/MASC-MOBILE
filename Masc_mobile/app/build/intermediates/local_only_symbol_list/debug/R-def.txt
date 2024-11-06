@@ -9,6 +9,7 @@ color footer_background_color
 color ic_launcher2_background
 color primary
 color red
+color secondary
 color text
 color white
 dimen fab_margin
@@ -50,6 +51,7 @@ id btn_danza
 id btn_pintura
 id btn_register
 id btn_texto
+id btnlogout
 id button_first
 id button_second
 id contact
