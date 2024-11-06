@@ -4,7 +4,7 @@
             "outputFile": "com.example.masc_mobile.app-mergeDebugResources-44:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\Downloads\\mobile\\MASC-MOBILE\\Masc_mobile\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "F:\\CURSOS\\REPOSITORIOS\\MASC-MOBILE\\Masc_mobile\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
