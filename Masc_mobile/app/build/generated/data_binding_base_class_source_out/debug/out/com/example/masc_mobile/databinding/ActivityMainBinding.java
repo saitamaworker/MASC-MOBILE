@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.masc_mobile.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -22,13 +23,16 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final BottomNavigationView bottomNavigation;
+
+  @NonNull
+  public final Button btnCarrito;
+
+  @NonNull
   public final Button btnDanza;
 
   @NonNull
   public final Button btnPintura;
-
-  @NonNull
-  public final Button btnTexto;
 
   @NonNull
   public final LinearLayout filtersContainer;
@@ -42,14 +46,16 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final RecyclerView recyclerViewEvents;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnDanza,
-      @NonNull Button btnPintura, @NonNull Button btnTexto, @NonNull LinearLayout filtersContainer,
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
+      @NonNull BottomNavigationView bottomNavigation, @NonNull Button btnCarrito,
+      @NonNull Button btnDanza, @NonNull Button btnPintura, @NonNull LinearLayout filtersContainer,
       @NonNull FooterBinding footer, @NonNull HeaderBinding header,
       @NonNull RecyclerView recyclerViewEvents) {
     this.rootView = rootView;
+    this.bottomNavigation = bottomNavigation;
+    this.btnCarrito = btnCarrito;
     this.btnDanza = btnDanza;
     this.btnPintura = btnPintura;
-    this.btnTexto = btnTexto;
     this.filtersContainer = filtersContainer;
     this.footer = footer;
     this.header = header;
@@ -83,6 +89,18 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.bottom_navigation;
+      BottomNavigationView bottomNavigation = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNavigation == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_carrito;
+      Button btnCarrito = ViewBindings.findChildViewById(rootView, id);
+      if (btnCarrito == null) {
+        break missingId;
+      }
+
       id = R.id.btn_danza;
       Button btnDanza = ViewBindings.findChildViewById(rootView, id);
       if (btnDanza == null) {
@@ -92,12 +110,6 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.btn_pintura;
       Button btnPintura = ViewBindings.findChildViewById(rootView, id);
       if (btnPintura == null) {
-        break missingId;
-      }
-
-      id = R.id.btn_texto;
-      Button btnTexto = ViewBindings.findChildViewById(rootView, id);
-      if (btnTexto == null) {
         break missingId;
       }
 
@@ -127,8 +139,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnDanza, btnPintura, btnTexto,
-          filtersContainer, binding_footer, binding_header, recyclerViewEvents);
+      return new ActivityMainBinding((ConstraintLayout) rootView, bottomNavigation, btnCarrito,
+          btnDanza, btnPintura, filtersContainer, binding_footer, binding_header,
+          recyclerViewEvents);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

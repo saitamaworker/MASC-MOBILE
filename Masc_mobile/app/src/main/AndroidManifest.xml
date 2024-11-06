@@ -25,6 +25,11 @@
             android:name=".RegisterActivity"
             android:exported="true"
             android:theme="@style/Theme.Masc_mobile" />
+        <activity android:name=".CartActivity">
+
+
+        </activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

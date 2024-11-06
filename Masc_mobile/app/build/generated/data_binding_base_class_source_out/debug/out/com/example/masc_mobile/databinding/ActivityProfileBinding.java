@@ -23,9 +23,6 @@ public final class ActivityProfileBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final EditText biography;
-
-  @NonNull
   public final Button btnDelete;
 
   @NonNull
@@ -35,13 +32,19 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final EditText email;
 
   @NonNull
+  public final EditText id;
+
+  @NonNull
+  public final EditText lastname;
+
+  @NonNull
   public final LinearLayout linearLayout;
 
   @NonNull
   public final ConstraintLayout main;
 
   @NonNull
-  public final EditText password;
+  public final EditText name;
 
   @NonNull
   public final ImageView profileImage;
@@ -49,18 +52,20 @@ public final class ActivityProfileBinding implements ViewBinding {
   @NonNull
   public final EditText username;
 
-  private ActivityProfileBinding(@NonNull ConstraintLayout rootView, @NonNull EditText biography,
-      @NonNull Button btnDelete, @NonNull Button btnSave, @NonNull EditText email,
-      @NonNull LinearLayout linearLayout, @NonNull ConstraintLayout main,
-      @NonNull EditText password, @NonNull ImageView profileImage, @NonNull EditText username) {
+  private ActivityProfileBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnDelete,
+      @NonNull Button btnSave, @NonNull EditText email, @NonNull EditText id,
+      @NonNull EditText lastname, @NonNull LinearLayout linearLayout,
+      @NonNull ConstraintLayout main, @NonNull EditText name, @NonNull ImageView profileImage,
+      @NonNull EditText username) {
     this.rootView = rootView;
-    this.biography = biography;
     this.btnDelete = btnDelete;
     this.btnSave = btnSave;
     this.email = email;
+    this.id = id;
+    this.lastname = lastname;
     this.linearLayout = linearLayout;
     this.main = main;
-    this.password = password;
+    this.name = name;
     this.profileImage = profileImage;
     this.username = username;
   }
@@ -92,12 +97,6 @@ public final class ActivityProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.biography;
-      EditText biography = ViewBindings.findChildViewById(rootView, id);
-      if (biography == null) {
-        break missingId;
-      }
-
       id = R.id.btnDelete;
       Button btnDelete = ViewBindings.findChildViewById(rootView, id);
       if (btnDelete == null) {
@@ -116,6 +115,18 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.id;
+      EditText id_ = ViewBindings.findChildViewById(rootView, id);
+      if (id_ == null) {
+        break missingId;
+      }
+
+      id = R.id.lastname;
+      EditText lastname = ViewBindings.findChildViewById(rootView, id);
+      if (lastname == null) {
+        break missingId;
+      }
+
       id = R.id.linearLayout;
       LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout == null) {
@@ -124,9 +135,9 @@ public final class ActivityProfileBinding implements ViewBinding {
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 
-      id = R.id.password;
-      EditText password = ViewBindings.findChildViewById(rootView, id);
-      if (password == null) {
+      id = R.id.name;
+      EditText name = ViewBindings.findChildViewById(rootView, id);
+      if (name == null) {
         break missingId;
       }
 
@@ -142,8 +153,8 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityProfileBinding((ConstraintLayout) rootView, biography, btnDelete, btnSave,
-          email, linearLayout, main, password, profileImage, username);
+      return new ActivityProfileBinding((ConstraintLayout) rootView, btnDelete, btnSave, email, id_,
+          lastname, linearLayout, main, name, profileImage, username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
