@@ -1,4 +1,4 @@
-#Wed Nov 06 00:30:20 ART 2024
+#Sun Nov 10 11:15:29 ART 2024
 base.0=F\:\\CURSOS\\REPOSITORIOS\\MASC-MOBILE\\Masc_mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=F\:\\CURSOS\\REPOSITORIOS\\MASC-MOBILE\\Masc_mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=F\:\\CURSOS\\REPOSITORIOS\\MASC-MOBILE\\Masc_mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex

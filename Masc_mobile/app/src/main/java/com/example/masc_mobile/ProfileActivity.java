@@ -75,12 +75,16 @@ public class ProfileActivity extends AppCompatActivity {
 
     private void loadUserProfile() {
         String token = tokenManager.getToken();
-        if (token == null) { Log.e("ProfileActivity", "Token es null. No se puede cargar el perfil del usuario."); return; }
+        if (token == null) { Log.e("ProfileActivity", "Token es null. No se puede cargar el perfil del usuario.");
+            // Redirigir al usuario al inicio de sesión si el token es nulo
+            Intent intent = new Intent(ProfileActivity.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
+            return; }
         // URL de tu API para obtener el perfil del usuario (cambia la URL según tu entorno)
         String url = "https://masc-yps4.onrender.com/api/user/profile/";
         Log.d("AuthCheck", "Token antes de la solicitud: " + token);
-
-
 
 
         // Crear una solicitud JSON para obtener los datos del usuario
@@ -114,16 +118,16 @@ public class ProfileActivity extends AppCompatActivity {
                 }) {
             @Override
             public Map<String, String> getHeaders() {
-                Map<String, String> headers = new HashMap<>();
-                headers.put("Authorization", "Bearer " +  tokenManager.getToken());  // Agrega el token de autenticación
-                SharedPreferences preferences = getSharedPreferences("UserPrefs", MODE_PRIVATE);
-                String csrfToken = preferences.getString("csrfToken", "");
-                String sessionId = preferences.getString("sessionId", "");
-                Log.d("AuthCheck", "Headers enviados: " + headers.toString());
-
-                headers.put("Cookie", "csrftoken=" + csrfToken + "; sessionid=" + sessionId);
-                headers.put("Content-Type", "application/json");
-                return headers;
+//                Map<String, String> headers = new HashMap<>();
+//                headers.put("Authorization", "token " +  tokenManager.getToken());  // Agrega el token de autenticación
+//                SharedPreferences preferences = getSharedPreferences("UserPrefs", MODE_PRIVATE);
+//                String csrfToken = preferences.getString("csrfToken", "");
+//                String sessionId = preferences.getString("sessionId", "");
+//                Log.d("AuthCheck", "Headers enviados: " + headers.toString());
+//
+////                headers.put("Cookie", "csrftoken=" + csrfToken + "; sessionid=" + sessionId);
+//                headers.put("Content-Type", "application/json");
+                return getAuthHeaders();
             }
         };
 
@@ -163,14 +167,32 @@ public class ProfileActivity extends AppCompatActivity {
                 }) {
             @Override
             public Map<String, String> getHeaders() {
-                Map<String, String> headers = new HashMap<>();
-                headers.put("Authorization", "Bearer " + token);  // Agregar el token de autenticación
+//                Map<String, String> headers = new HashMap<>();
+//                headers.put("Authorization", "token " + token);  // Agregar el token de autenticación
 //
-                return headers;
+                return getAuthHeaders();
             }
         };
 
         queue.add(patchRequest);
+    }
+    // Nuevo método getAuthHeaders() para incluir token y cookies en los encabezados
+    private Map<String, String> getAuthHeaders() {
+        Map<String, String> headers = new HashMap<>();
+        headers.put("Authorization", "token " + tokenManager.getToken());
+
+        SharedPreferences preferences = getSharedPreferences("cookie_prefs", MODE_PRIVATE);
+        String csrfToken = preferences.getString("csrftoken", null);
+        String sessionId = preferences.getString("sessionid", null);
+
+        // Agrega las cookies almacenadas en SharedPreferences si están presentes
+        if (csrfToken != null && sessionId != null) {
+            headers.put("Cookie", "csrftoken=" + csrfToken + "; sessionid=" + sessionId);
+            Log.d("ProfileActivity", "Cookies cargadas de SharedPreferences");
+        }
+
+        headers.put("Content-Type", "application/json");
+        return headers;
     }
 
     // Método para cerrar sesión
